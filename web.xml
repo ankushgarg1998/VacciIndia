@@ -13,6 +13,99 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/trial</url-pattern>
 	</servlet-mapping>
 
+
+	<servlet>
+		<servlet-name>vaccines</servlet-name>
+		<jsp-file>vaccines.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccines</servlet-name>
+		<url-pattern>/vaccines</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>vaccine-bcg</servlet-name>
+		<jsp-file>vaccine-bcg.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-bcg</servlet-name>
+		<url-pattern>/vaccine-bcg</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccine-dtp</servlet-name>
+		<jsp-file>vaccine-dtp.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-dtp</servlet-name>
+		<url-pattern>/vaccine-dtp</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccine-hepb</servlet-name>
+		<jsp-file>vaccine-hepb.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-hepb</servlet-name>
+		<url-pattern>/vaccine-hepb</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccine-hib</servlet-name>
+		<jsp-file>vaccine-hib.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-hib</servlet-name>
+		<url-pattern>/vaccine-hib</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccine-hpv</servlet-name>
+		<jsp-file>vaccine-hpv.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-hpv</servlet-name>
+		<url-pattern>/vaccine-hpv</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccine-mmr</servlet-name>
+		<jsp-file>vaccine-mmr.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-mmr</servlet-name>
+		<url-pattern>/vaccine-mmr</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccine-pneum</servlet-name>
+		<jsp-file>vaccine-pneum.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-pneum</servlet-name>
+		<url-pattern>/vaccine-pneum</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccine-polio</servlet-name>
+		<jsp-file>vaccine-polio.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-polio</servlet-name>
+		<url-pattern>/vaccine-polio</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccine-rota</servlet-name>
+		<jsp-file>vaccine-rota.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-rota</servlet-name>
+		<url-pattern>/vaccine-rota</url-pattern>
+	</servlet-mapping>
+
+
 	<servlet>
 		<servlet-name>home</servlet-name>
 		<jsp-file>home.jsp</jsp-file>

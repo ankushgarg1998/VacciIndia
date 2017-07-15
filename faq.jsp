@@ -1,5 +1,5 @@
 <%@ include file = "header1.jsp" %>
-		<title>Home | VaciiIndia</title>
+		<title>Home | VacciIndia</title>
 <%@ include file = "header2.jsp" %>
 			<div role="main" class="main">
 

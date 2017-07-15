@@ -1,0 +1,14 @@
+<%@ include file = "header1.jsp" %>
+		<title>BCG | Vaccines</title>
+<%@ include file = "header2.jsp" %>
+
+
+
+
+<%@ include file = "sidebar.jsp" %>
+
+
+
+<%@ include file = "footer.jsp" %>
+		</div>
+<%@ include file = "scripts.jsp" %>

@@ -71,7 +71,7 @@
         <div class="header-row">
           <div class="header-column">
             <div class="header-logo">
-              <a href="home">
+              <a href="demo-medical.html">
                 <img alt="Porto" width="143" height="40" src="img/demos/medical/logo-medical.png">
               </a>
             </div>
@@ -96,20 +96,19 @@
                         </a>
                       </li>
                       <li class="dropdown dropdown-full-color dropdown-secondary">
-                        <a class="dropdown-toggle" href="demo-medical-departments.html">
+                        <a class="dropdown-toggle" href="vaccines">
                           Vaccines
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Vaccine 1</a></li>
-                          <li><a href="#">Vaccine 2</a></li>
-                          <li><a href="#">Vaccine 3</a></li>
-                          <li><a href="#">Vaccine 4</a></li>
-                          <li><a href="#">Vaccine 5</a></li>
-                          <li><a href="#">Vaccine 6</a></li>
-													<li><a href="#">Vaccine 7</a></li>
-													<li><a href="#">Vaccine 8</a></li>
-													<li><a href="#">Vaccine 9</a></li>
-													<li><a href="#">Vaccine 10</a></li>
+													<li><a href="vaccine-bcg">BCG Vaccine</a></li>
+													<li><a href="vaccine-dtp">DTP-containing vaccine</a></li>
+													<li><a href="vaccine-hepb">Hepatitis-B</a></li>
+													<li><a href="vaccine-hib">Haemophilus Influenzae type B</a></li>
+													<li><a href="vaccine-hpv">Human papilloma virus </a></li>
+													<li><a href="vaccine-mmr">MMR</a></li>
+													<li><a href="vaccine-pneum">Pneumococcal (Conjugate)</a></li>
+													<li><a href="vaccine-polio">Polio</a></li>
+													<li><a href="vaccine-rota">Rotavirus</a></li>
                         </ul>
                       </li>
 											<li class="dropdown dropdown-full-color dropdown-secondary">
