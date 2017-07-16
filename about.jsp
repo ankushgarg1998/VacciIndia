@@ -8,7 +8,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h1 class="mt-xs">About Us <span>20 Years Caring About You</span></h1>
+							<h1 class="mt-xs">About Us </h1>
 							<ul class="breadcrumb breadcrumb-valign-mid">
 								<li><a href="home">Home</a></li>
 								<li class="active">About Us</li>
@@ -22,22 +22,22 @@
 
 				<div class="row mt-xl">
 					<div class="col-md-8">
-						<h2 class="font-weight-semibold mb-xs">Welcome to Porto Medical</h2>
+						<h2 class="font-weight-semibold mb-xs">Welcome to VacciIndia</h2>
 
-						<p class="lead font-weight-normal">Founded in 2001 by John Doe, gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat.</p>
+						<p class="lead font-weight-normal">This portal is a brainchild of a team of five of us who got along to explore the world of java but little did we know the ride we were in for! Somewhere along the way we were made to realize that a true engineer is not who knows something inside-out but rather uses it to some practical objective. Our instructor in his not-so-subtle way made us realize the duties that we as an educated programmers had towards the society and suggested this topic. So, to kill two birds in one stone we created this website!</p>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum pretium, tortor risus dapibus tortor, eu suscipit orci leo sed nisl. Integer et ipsum eu nulla auctor mattis sit amet in diam. Vestibulum non ornare arcu. Class aptent taciti sociosqu ad.</p>
+						<p>This website was envisioned after it was realized that vaccination, even being the integral factor in shaping up and determining how the future generation will be(i.e. as a healthy workforce that drives the country and in many ways the world or as a disease ridden society which would inhibit us from using our complete human resources) is severely undermined and not given enough importance which it demands. To face it’s challenges head-on necessitated that such a one stop portal be created for parents to use to keep their precious as safe and healthy as the medical science allowed.</p>
 
-						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum pretium, tortor risus dapibus tortor, eu suscipit orci leo sed nisl. Integer et ipsum eu nulla auctor mattis sit amet in diam. Vestibulum non ornare arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer vitae nunc consequat, viverra nisl eget, dictum eros. Maecenas sit amet iaculis massa. Sed dui tellus, pellentesque non enim eget, cursus sollicitudin tellus. Cras eget varius enim. Aenean ac libero finibus, varius nisi a, cursus magna. Vestibulum vitae massa purus. Etiam vulputate ullamcorper diam, a iaculis nulla placerat a. Aenean ac libero finibus, varius nisi a, cursus magna. Vestibulum vitae massa purus. Etiam vulputate ullamcorper diam, a iaculis nulla placerat a.</p>
+						<p> We realized that in this fast-paced world it was a need to cater to parents who for some reason couldn’t keep up with the schedule for immunization due to work or other unfortunate reasons and to provide them a portal to set up friendly reminders or progress report for their vaccination schedule with the use for each vaccine, why it’s important, how it helps your baby, outcomes if your child is not vaccinated with this particular vaccine. This website was developed keeping in mind a few fraction of skeptical parents who delay or stop altogether the vaccination process which have shown in many studies that it’s detrimental to the process thus decreasing the effectiveness. To address all these problems and many more like telling which is the nearest place to get the shots because many times we are at a loss to which place to get our child vaccinated if you’re new to locality this website was created.</p>
 					</div>
 					<div class="col-md-4">
 
 						<div class="owl-carousel owl-theme nav-inside" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
 							<div>
-								<img src="img/demos/medical/gallery/gallery-2.jpg" alt="" class="img-responsive box-shadow-custom" />
+								<img src="img/demos/medical/gallery/vaccine2.jpg" alt="" class="img-responsive box-shadow-custom" />
 							</div>
 							<div>
-								<img src="img/demos/medical/gallery/gallery-3.jpg" alt="" class="img-responsive box-shadow-custom" />
+								<img src="img/demos/medical/gallery/childimms.jpg" alt="" class="img-responsive box-shadow-custom" />
 							</div>
 							<div>
 								<img src="img/demos/medical/gallery/gallery-4.jpg" alt="" class="img-responsive box-shadow-custom" />
@@ -49,19 +49,19 @@
 								<div class="col-md-12 mb-xlg">
 									<div class="counter counter-primary">
 										<strong data-to="15">0</strong>
-										<label>Years in Business</label>
+										<label>Children Vaccinated Till Date</label>
 									</div>
 								</div>
 								<div class="col-md-12 mb-xlg">
 									<div class="counter counter-primary">
-										<strong data-to="12">0</strong>
+										<strong data-to="4">0</strong>
 										<label>Departments</label>
 									</div>
 								</div>
 								<div class="col-md-12 mb-xlg">
 									<div class="counter counter-primary">
 										<strong data-to="16">0</strong>
-										<label>Insurance</label>
+										<label>Locations Registered</label>
 									</div>
 								</div>
 							</div>
@@ -74,27 +74,27 @@
 					<div class="col-md-12">
 						<div class="toggle toggle-primary toggle-simple" data-plugin-toggle>
 							<section class="toggle">
-								<label>Payment Options</label>
+								<label>VacciScheduler</label>
 								<div class="toggle-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. </p>
+									<p>VacciScheduler was our initiative to provide the parent a digitalized schedule of immunizing shot of their newborns with the provision of setting up timely reminders to ensure that your child never misses a vaccine and grows up as a healthy person. </p>
 								</div>
 							</section>
 							<section class="toggle">
-								<label>Appointments</label>
+								<label>VacciLocator</label>
 								<div class="toggle-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, orci sit amet posuere auctor, orci eros pellentesque odio, nec pellentesque erat ligula nec massa. Aenean consequat lorem ut felis ullamcorper posuere gravida tellus faucibus. Maecenas dolor elit, pulvinar eu vehicula eu, consequat et lacus. Duis et purus ipsum. In auctor mattis ipsum id molestie. Donec risus nulla, fringilla a rhoncus vitae, semper a massa. Vivamus ullamcorper, enim sit amet consequat laoreet, tortor tortor dictum urna, ut egestas urna ipsum nec libero. Nulla justo leo, molestie vel tempor nec, egestas at massa. Aenean pulvinar, felis porttitor iaculis pulvinar, odio orci sodales odio, ac pulvinar felis quam sit.</p>
+									<p>VacciLocator was an idea proposed which aims to solve the problems of many parents who are unable to find a location to get their child vaccinated either because they are new to a locality or because they live in such a place which does not have a very well located area designated for vaccination like in a village. Therefore, to solve the problems of such kind of parents VacciLocator provides the location of all the places to get your child vaccinated.</p>
 								</div>
 							</section>
 							<section class="toggle">
-								<label>Accepted Insurance Plans</label>
+								<label>PediatricianLocator</label>
 								<div class="toggle-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, orci sit amet posuere auctor, orci eros pellentesque odio, nec pellentesque erat ligula nec massa. Aenean consequat lorem ut felis ullamcorper posuere gravida tellus faucibus. Maecenas dolor elit, pulvinar eu vehicula eu, consequat et lacus. Duis et purus ipsum. In auctor mattis ipsum id molestie. Donec risus nulla, fringilla a rhoncus vitae, semper a massa. Vivamus ullamcorper, enim sit amet consequat laoreet, tortor tortor dictum urna, ut egestas urna ipsum nec libero. Nulla justo leo, molestie vel tempor nec, egestas at massa. Aenean pulvinar, felis porttitor iaculis pulvinar, odio orci sodales odio, ac pulvinar felis quam sit.</p>
+									<p>Since we wished our website to take care of all the headaches of parents like keeping the locations of nearest pediatricians, hospitals specialized in children so that they can focus more on loving and raising their newborn we incorporated PediatricianLocator which shows the location of nearest available pediatric doctor in case of any emergency.</p>
 								</div>
 							</section>
 							<section class="toggle">
-								<label>Policies</label>
+								<label>Vacci@home</label>
 								<div class="toggle-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, orci sit amet posuere auctor, orci eros pellentesque odio, nec pellentesque erat ligula nec massa. Aenean consequat lorem ut felis ullamcorper posuere gravida tellus faucibus. Maecenas dolor elit, pulvinar eu vehicula eu, consequat et lacus. Duis et purus ipsum. In auctor mattis ipsum id molestie. Donec risus nulla, fringilla a rhoncus vitae, semper a massa. Vivamus ullamcorper, enim sit amet consequat laoreet, tortor tortor dictum urna, ut egestas urna ipsum nec libero. Nulla justo leo, molestie vel tempor nec, egestas at massa. Aenean pulvinar, felis porttitor iaculis pulvinar, odio orci sodales odio, ac pulvinar felis quam sit.</p>
+									<p>Vacci@home is an idea that aimed to solve the problems of the parents who are preoccupied or unable to visit the vaccination center giving them an ease of mind by getting themselves the ease of mind that comes with getting their child vaccinated at their home at their convenience of a reasonable amount of money. Currently this feature is in progress. </p>
 								</div>
 							</section>
 						</div>
@@ -108,11 +108,10 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="call-to-action-content">
-								<h3>"Health is the most important thing you have in life!"</h3>
-								<p>Contact us now to schedule an appointment.</p>
+								<h3>The greatest gift you can give your child and the world is getting them vaccinated.</h3>
 							</div>
 							<div class="call-to-action-btn">
-								<a href="demo-medical-contact.html" target="_blank" class="btn btn-lg btn-primary">Contact Us</a>
+								<a href="sign.jsp" target="_blank" class="btn btn-lg btn-primary">Sign up/in</a>
 							</div>
 						</div>
 					</div>
@@ -142,7 +141,8 @@
 		<script src="js/theme.js"></script>
 
 		<!-- Current Page Vendor and Views -->
-		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
 		<!-- Current Page Vendor and Views -->
 		<script src="js/views/view.contact.js"></script>

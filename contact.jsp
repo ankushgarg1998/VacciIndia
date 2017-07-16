@@ -148,7 +148,8 @@
 		<script src="js/theme.js"></script>
 
 		<!-- Current Page Vendor and Views -->
-		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
 		<!-- Current Page Vendor and Views -->
 		<script src="js/views/view.contact.js"></script>
@@ -195,7 +196,7 @@
 			var mapSettings = {
 				controls: {
 					draggable: (($.browser.mobile) ? false : true),
-					panControl: true,
+					panControl: false,
 					zoomControl: true,
 					mapTypeControl: true,
 					scaleControl: true,
