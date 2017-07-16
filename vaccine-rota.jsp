@@ -30,7 +30,7 @@
 
 						<div class="feature-box feature-box-style-2 mb-lg">
 							<div class="feature-box-icon">
-								<img src="img/demos/medical/icons/department-icon-cardiology.png" alt class="img-responsive" />
+								<img src="images/polio.jpg" alt class="img-responsive" />
 							</div>
 							<div class="feature-box-info ml-md">
 								<h2 class="font-weight-semibold mb-md">Rotavirus</h2>
@@ -38,7 +38,7 @@
 
 										</p>
 
-								<img src="img/demos/medical/gallery/gallery-4.jpg" style="max-width: 260px;" alt="" class="pull-right ml-xl mb-xl img-responsive box-shadow-custom" />
+								<img src="images/rotavaccine.jpg" style="max-width: 260px;" alt="" class="pull-right ml-xl mb-xl img-responsive box-shadow-custom" />
 
 								<p>Rotavirus is the most common cause of serious diarrhea in babies and young children. It usually affects children between the ages of 6 months and 2 years.<br> Without vaccine, almost all children will have at least one episode of rotavirus diarrhea before they turn 5 years old.<br>
 There are two rotavirus vaccines for rotavirus. They are available under these brand names: Rotarix (RV1) and RotaTeq (RV5). Both vaccines are effective.<br>

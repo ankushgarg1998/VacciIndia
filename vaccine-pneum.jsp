@@ -30,7 +30,7 @@
 
 						<div class="feature-box feature-box-style-2 mb-lg">
 							<div class="feature-box-icon">
-								<img src="img/demos/medical/icons/department-icon-cardiology.png" alt class="img-responsive" />
+								<img src="images/polio.jpg" alt class="img-responsive" />
 							</div>
 							<div class="feature-box-info ml-md">
 								<h2 class="font-weight-semibold mb-md">Pneumococcal (Conjugate)</h2>
@@ -38,7 +38,7 @@
 
 										</p>
 
-								<img src="img/demos/medical/gallery/gallery-4.jpg" style="max-width: 260px;" alt="" class="pull-right ml-xl mb-xl img-responsive box-shadow-custom" />
+								<img src="images/pneuvaccine.jpg" style="max-width: 260px;" alt="" class="pull-right ml-xl mb-xl img-responsive box-shadow-custom" />
 
 								<p>Vaccination can protect both children and adults from pneumococcal disease.<br>
 Pneumococcal conjugate vaccine (abbreviated PCV13) is a shot for infants and toddlers.It helps prevent pneumococcal disease, and it also helps stop the disease from spreading from person to person.

@@ -30,7 +30,7 @@
 
 						<div class="feature-box feature-box-style-2 mb-lg">
 							<div class="feature-box-icon">
-								<img src="img/demos/medical/icons/department-icon-cardiology.png" alt class="img-responsive" />
+								<img src="images/syringe.jpg" alt class="img-responsive" />
 							</div>
 							<div class="feature-box-info ml-md">
 								<h2 class="font-weight-semibold mb-md">BCG Vaccine</h2>
@@ -38,7 +38,7 @@
 
 										</p>
 
-								<img src="img/demos/medical/gallery/gallery-4.jpg" style="max-width: 260px;" alt="" class="pull-right ml-xl mb-xl img-responsive box-shadow-custom" />
+								<img src="images/bcgvaccine.jpg" style="max-width: 260px;" alt="" class="pull-right ml-xl mb-xl img-responsive box-shadow-custom" />
 
 								<p>In countries where tuberculosis is common, one dose is recommended in healthy babies as close to the time of birth as possible.
 										The BCG vaccine is the only TB vaccine currently available, although there are other TB vaccines under development. Although far from perfect, the BCG vaccine is a relatively inexpensive, safe, and readily available vaccine that is still the only vaccine available for the prevention of human forms of TB.

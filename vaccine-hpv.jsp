@@ -31,7 +31,7 @@
 
 						<div class="feature-box feature-box-style-2 mb-lg">
 							<div class="feature-box-icon">
-								<img src="img/demos/medical/icons/department-icon-cardiology.png" alt class="img-responsive" />
+								<img src="images/syringe.jpg" alt class="img-responsive" />
 							</div>
 							<div class="feature-box-info ml-md">
 								<h2 class="font-weight-semibold mb-md">Human papilloma virus</h2>
@@ -39,7 +39,7 @@
 
 										</p>
 
-								<img src="img/demos/medical/gallery/gallery-4.jpg" style="max-width: 260px;" alt="" class="pull-right ml-xl mb-xl img-responsive box-shadow-custom" />
+								<img src="images/hpvvaccine.jpg" style="max-width: 260px;" alt="" class="pull-right ml-xl mb-xl img-responsive box-shadow-custom" />
 
 								<p>HPV is a group of more than 150 related viruses. Each HPV virus in this large group is given a number which is called its HPV type. HPV is named for the warts (papillomas) some HPV types can cause.
 HPV vaccine is important because it protects against cancers caused by human papillomavirus (HPV) infection. HPV is a very common virus; nearly 80 million people—about one in four—are currently infected.<br> About 14 million people, including teens, become infected with HPV each year.<br>
