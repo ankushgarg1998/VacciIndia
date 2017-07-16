@@ -71,7 +71,7 @@
         <div class="header-row">
           <div class="header-column">
             <div class="header-logo">
-              <a href="demo-medical.html">
+              <a href="home">
                 <img alt="Porto" width="143" height="40" src="img/demos/medical/logo-medical.png">
               </a>
             </div>
