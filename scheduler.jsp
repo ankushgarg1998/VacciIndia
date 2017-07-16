@@ -18,7 +18,7 @@
 				</section>
 
 				<div class="container">
-					<div class="row">
+					<%-- <div class="row">
 						<div class="col-md-12 center">
 							<div class="logo">
 								<a href="index.html">
@@ -38,14 +38,14 @@
 							<p class="mb-none lead">Vacci at Home is an initiative to provide with vaccination services at your Doorstep</p>
 							<p>With this feature you will be able to pre-book vaccination on a particular date. And you child will be supplied vaccination from certified doctors at your home.</p>
 						</div>
-					</div>
+					</div> --%>
 					<div class="row">
 						<div class="col-md-12">
 							<hr class="tall">
 						</div>
 					</div>
 
-
+<iframe src="https://calendar.google.com/calendar/embed?title=Vaccination%20Calendar&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=en.indian%23holiday%40group.v.calendar.google.com&amp;color=%230F4B38&amp;ctz=Asia%2FCalcutta" style="border-width:0" width="1150" height="600" frameborder="0" scrolling="no"></iframe>
 
 
           <div class="row">

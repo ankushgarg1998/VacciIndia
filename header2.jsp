@@ -112,7 +112,7 @@
                         </ul>
                       </li>
 											<li class="dropdown dropdown-full-color dropdown-secondary">
-                        <a class="dropdown-toggle" href="demo-medical-departments.html">
+                        <a class="dropdown-toggle">
                           Services
                         </a>
                         <ul class="dropdown-menu">
