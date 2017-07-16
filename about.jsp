@@ -23,6 +23,7 @@
 				<div class="row mt-xl">
 					<div class="col-md-8">
 						<h2 class="font-weight-semibold mb-xs">Welcome to VacciIndia</h2>
+                            <h4 class="mt-xs" style="color: lightgrey">Your one stop portal for all things vaccination.</h4>
 
 						<p class="lead font-weight-normal">This portal is a brainchild of a team of five of us who got along to explore the world of java but little did we know the ride we were in for! Somewhere along the way we were made to realize that a true engineer is not who knows something inside-out but rather uses it to some practical objective. Our instructor in his not-so-subtle way made us realize the duties that we as an educated programmers had towards the society and suggested this topic. So, to kill two birds in one stone we created this website!</p>
 
@@ -40,7 +41,7 @@
 								<img src="img/demos/medical/gallery/childimms.jpg" alt="" class="img-responsive box-shadow-custom" />
 							</div>
 							<div>
-								<img src="img/demos/medical/gallery/gallery-4.jpg" alt="" class="img-responsive box-shadow-custom" />
+								<img src="img/demos/medical/gallery/timthumb.jpg" alt="" class="img-responsive box-shadow-custom" />
 							</div>
 						</div>
 
@@ -55,7 +56,7 @@
 								<div class="col-md-12 mb-xlg">
 									<div class="counter counter-primary">
 										<strong data-to="4">0</strong>
-										<label>Departments</label>
+										<label>Services</label>
 									</div>
 								</div>
 								<div class="col-md-12 mb-xlg">
