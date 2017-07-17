@@ -150,7 +150,7 @@
 			</div>
 			<div class="col-md-4">
 				<h4 class="heading-primary text-uppercase mb-md">Register An Account</h4>
-				<h5>To customize this chart according to dates.</h5>
+				<h5>To customize this chart according to your baby's birth.</h5>
 				<form action="/" id="frmSignUp" method="post">
 					<div class="row">
 
@@ -161,12 +161,7 @@
 							</div>
 						</div>
 
-						<div class="form-group">
-							<div class="col-md-12">
-								<label>E-mail Address</label>
-								<input type="text" value="" class="form-control input-lg">
-							</div>
-						</div>
+						
 
 						<div class="form-group">
 							<div class="col-md-12">
@@ -176,17 +171,8 @@
 						</div>
 					</div>
 
-					<div class="row">
-						<div class="form-group">
-							<div class="col-md-6">
-								<label>Password</label>
-								<input type="password" value="" class="form-control input-lg">
-							</div>
-							<div class="col-md-6">
-								<label>Re-enter Password</label>
-								<input type="password" value="" class="form-control input-lg">
-							</div>
-						</div>
+					
+							
 					</div>
 					<div class="row">
 						<div class="col-md-12">

@@ -34,7 +34,7 @@
 						<div class="appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="100">
 							<div class="feature-box feature-box-style-2 mb-lg">
 								<div class="feature-box-icon">
-									<img src="images/syringe.jpg" alt class="img-responsive" />
+									<img src="images/polio.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold mb-xs">BCG vaccine</h4>
@@ -52,7 +52,7 @@
 						<div class="appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="100">
 							<div class="feature-box feature-box-style-2 mb-lg">
 								<div class="feature-box-icon">
-									<img src="images/syringe.jpg" alt class="img-responsive" />
+									<img src="images/polio.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold mb-xs">Hepatitis-B Vaccine</h4>
@@ -68,7 +68,7 @@ Infants should get their first dose of hepatitis B vaccine at birth and will usu
 						<div class="appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="100">
 							<div class="feature-box feature-box-style-2 mb-lg">
 								<div class="feature-box-icon">
-									<img src="images/polio.jpg" alt class="img-responsive" />
+									<img src="images/syringe.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold mb-xs">Polio Vaccine</h4>
@@ -86,7 +86,7 @@ Infants should get their first dose of hepatitis B vaccine at birth and will usu
 						<div class="appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="100">
 							<div class="feature-box feature-box-style-2 mb-lg">
 								<div class="feature-box-icon">
-									<img src="images/syringe.jpg" alt class="img-responsive" />
+									<img src="images/polio.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold mb-xs">DTP-containing vaccine</h4>
@@ -105,7 +105,7 @@ This bacterial infection causes fever, weakness, and a sore throat.
 						<div class="appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="100">
 							<div class="feature-box feature-box-style-2 mb-lg">
 								<div class="feature-box-icon">
-									<img src="images/syringe.jpg" alt class="img-responsive" />
+									<img src="images/polio.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold mb-xs">Haemophilus Influenzae type B</h4>
@@ -121,7 +121,7 @@ This bacterial infection causes fever, weakness, and a sore throat.
 						<div class="appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="100">
 							<div class="feature-box feature-box-style-2 mb-lg">
 								<div class="feature-box-icon">
-									<img src="images/polio.jpg" alt class="img-responsive" />
+									<img src="images/syringe.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold mb-xs">Pneumococcal (Conjugate)</h4>
@@ -136,7 +136,7 @@ Pneumococcal conjugate vaccine (abbreviated PCV13) is a shot for infants and tod
 						<div class="appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="100">
 							<div class="feature-box feature-box-style-2 mb-lg">
 								<div class="feature-box-icon">
-									<img src="images/polio.jpg" alt class="img-responsive" />
+									<img src="images/syringe.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold mb-xs">Rotavirus</h4>
@@ -150,7 +150,7 @@ There are two rotavirus vaccines for rotavirus. They are available under these b
 						<div class="appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="100">
 							<div class="feature-box feature-box-style-2 mb-lg">
 								<div class="feature-box-icon">
-									<img src="images/syringe.jpg" alt class="img-responsive" />
+									<img src="images/polio.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold mb-xs">MMR</h4>
@@ -164,7 +164,7 @@ Children between 1 and 12 years of age can get a "combination" vaccine called MM
 						<div class="appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="100">
 							<div class="feature-box feature-box-style-2 mb-lg">
 								<div class="feature-box-icon">
-									<img src="images/syringe.jpg" alt class="img-responsive" />
+									<img src="images/polio.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold mb-xs">Human papilloma virus</h4>
