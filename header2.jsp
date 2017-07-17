@@ -31,15 +31,14 @@
 <link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
 <link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
 <link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
+<link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css">
 
 <!-- Skin CSS -->
-
-
 <link rel="stylesheet" href="css/skins/default.css">
+<link rel="stylesheet" href="css/skins/skin-medical.css">
 
 <!-- Demo CSS -->
-		<link rel="stylesheet" href="css/demos/demo-medical.css">
-		<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/demos/demo-medical.css">
 
 <!-- Theme Custom CSS -->
 <link rel="stylesheet" href="css/custom.css">
@@ -75,7 +74,7 @@
           <div class="header-column">
             <div class="header-logo">
               <a href="home">
-                <img alt="Porto" width="143" height="40" src="img/demos/medical/logo-medical.png">
+                <img alt="Porto" width="143" height="40" src="images/logo-medical.png">
               </a>
             </div>
           </div>
@@ -98,12 +97,28 @@
                           About Us
                         </a>
                       </li>
-                      <li class="dropdown dropdown-full-color dropdown-secondary">
+											<li class="${pageContext.request.requestURI eq '/vaccines' ? 'active' : ''}dropdown-full-color dropdown-secondary">
                         <a href="vaccines">
+                          Vaccines Details
+                        </a>
+                      </li>
+
+                      <%-- <li class="dropdown dropdown-full-color dropdown-secondary">
+                        <a class="dropdown-toggle" href="vaccines">
                           Vaccines
                         </a>
-                        
-                      </li>
+                        <ul class="dropdown-menu">
+													<li><a href="vaccine-bcg">BCG Vaccine</a></li>
+													<li><a href="vaccine-dtp">DTP-containing vaccine</a></li>
+													<li><a href="vaccine-hepb">Hepatitis-B</a></li>
+													<li><a href="vaccine-hib">Haemophilus Influenzae type B</a></li>
+													<li><a href="vaccine-hpv">Human papilloma virus </a></li>
+													<li><a href="vaccine-mmr">MMR</a></li>
+													<li><a href="vaccine-pneum">Pneumococcal (Conjugate)</a></li>
+													<li><a href="vaccine-polio">Polio</a></li>
+													<li><a href="vaccine-rota">Rotavirus</a></li>
+                        </ul>
+                      </li> --%>
 											<li class="dropdown dropdown-full-color dropdown-secondary">
                         <a class="dropdown-toggle">
                           Services
@@ -124,7 +139,8 @@
                         <a href="contact">
                           Contact
                         </a>
-                      <li class="dropdown dropdown-mega dropdown-mega-signin signin" id="headerAccount">
+                      </li>
+											<li class="dropdown dropdown-mega dropdown-mega-signin signin" id="headerAccount">
 														<a class="dropdown-toggle" href="page-login.html">
 															<i class="fa fa-user"></i> Sign In
 														</a>
@@ -187,33 +203,33 @@
 																<label>Last Name *</label>
 																<input type="text" value="" data-msg-required="Please enter your last name." maxlength="100" class="form-control" name="name" id="name" required>
 															</div>
-															
-															
+
+
 														</div>
-														
+
 														</div>
-														
+
 													<div class="row">
 															<div class="form-group">
 																<div class="col-md-12">
 																	<label>Parent's email address *</label>
 																	<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
-																</div>	
+																</div>
 															</div>
-															
+
 													</div>
-													
+
 													<div class="row">
 															<div class="form-group">
 																<div class="col-md-12">
 																	<label>Password *</label>
 																	<input type="password" value="" data-msg-required="Please enter your email address." data-msg-email="Password only consists of (A-Z),(a-z) and (0-9)" maxlength="100" class="form-control" name="password" id="password" required>
-																</div>	
+																</div>
 															</div>
-															
+
 													</div>
-														
-													
+
+
 													<div class="row">
 														<div class="form-group">
 															<div class="col-md-12">
@@ -222,7 +238,7 @@
 															</div>
 														</div>
 													</div>
-													
+
 													<div class="row">
 														<div class="col-md-4">
 															<input type="submit" value="Register" class="btn btn-primary mb-xl" data-loading-text="Loading...">
@@ -271,7 +287,6 @@
 															</li>
 														</ul>
 													</li>
-
                     </ul>
                   </nav>
                 </div>

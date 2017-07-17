@@ -4,7 +4,7 @@ xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
-	<servlet>
+<servlet>
 		<servlet-name>Trial</servlet-name>
 		<servlet-class>pkg.TrialServlet</servlet-class>
 	</servlet>
@@ -12,7 +12,18 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>Trial</servlet-name>
 		<url-pattern>/trial</url-pattern>
 	</servlet-mapping>
-	
+
+
+	<servlet>
+		<servlet-name>indexed</servlet-name>
+		<jsp-file>home.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>indexed</servlet-name>
+		<url-pattern>/indexed</url-pattern>
+	</servlet-mapping>
+
+
 	<servlet>
 		<servlet-name>vaccines</servlet-name>
 		<jsp-file>vaccines.jsp</jsp-file>
@@ -107,7 +118,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>home</servlet-name>
-		<jsp-file>home.jsp</jsp-file>
+		<jsp-file>indexed.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>home</servlet-name>

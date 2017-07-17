@@ -4,10 +4,10 @@
       <div class="footer-ribbon">
         <span>Get in Touch</span>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-6">
         <div class="newsletter">
-          <h4>Newsletter</h4>
-          <p>Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our newsletter.</p>
+          <h4>Updates</h4>
+          <p>Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our updates.</p>
 
           <div class="alert alert-success hidden" id="newsletterSuccess">
             <strong>Success!</strong> You've been added to our email list.
@@ -25,18 +25,13 @@
           </form>
         </div>
       </div>
-      <div class="col-md-3">
-        <h4>Latest Tweets</h4>
-        <div id="tweet" class="twitter" data-plugin-tweets data-plugin-options="{'username': '', 'count': 2}">
-          <p>Please wait...</p>
-        </div>
-      </div>
+
       <div class="col-md-4">
         <div class="contact-details">
           <h4>Contact Us</h4>
           <ul class="contact">
             <li><p><i class="fa fa-map-marker"></i> <strong>Address:</strong> MSIT, Janakpuri, New Delhi</p></li>
-            <li><p><i class="fa fa-phone"></i> <strong>Phone:</strong> (+91)7838765583</p></li>
+            <li><p><i class="fa fa-phone"></i> <strong>Phone:</strong>(+91)7838765582</p></li>
             <li><p><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:support@vacciindia.com">support@vacciindia.com</a></p></li>
           </ul>
         </div>
@@ -55,8 +50,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-1">
-          <a href="home" class="logo">
-            <img alt="Porto Website Template" class="img-responsive" src="img/logo-footer.png">
+          <a href="index.html" class="logo">
+            <img alt="Porto Website Template" class="img-responsive" src="img/logo-footer-dark.png">
           </a>
         </div>
         <div class="col-md-7">

@@ -22,7 +22,7 @@
 						<div class="col-md-12 center">
 							<div class="logo">
 								<a href="index.html">
-									<img width="111" height="54" src="img/logo-default.png" alt="Porto">*to be changed*
+									<img width="200" height="55" src="images/logo-medical.png" alt="Porto">
 								</a>
 							</div>
 						</div>
@@ -44,41 +44,7 @@
 							<hr class="tall">
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3">
-							<div class="progress-bars">
-								<div class="progress-label">
-									<span><strong>Conception:</strong> Finished</span>
-								</div>
-								<div class="progress">
-									<div class="progress-bar progress-bar-primary" data-appear-progress-animation="100%">
-										<span class="progress-bar-tooltip">100%</span>
-									</div>
-								</div>
-								<div class="progress-label">
-									<span><strong>Design</strong></span>
-								</div>
-								<div class="progress">
-									<div class="progress-bar progress-bar-primary" data-appear-progress-animation="85%" data-appear-animation-delay="300">
-										<span class="progress-bar-tooltip">85%</span>
-									</div>
-								</div>
-								<div class="progress-label">
-									<span><strong>Development</strong></span>
-								</div>
-								<div class="progress">
-									<div class="progress-bar progress-bar-primary" data-appear-progress-animation="65%" data-appear-animation-delay="600">
-										<span class="progress-bar-tooltip">65%</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<hr class="tall">
-						</div>
-					</div>
+
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3">
 							<div class="newsletter">

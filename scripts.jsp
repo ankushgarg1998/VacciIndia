@@ -19,8 +19,9 @@
 
 <!-- Current Page Vendor and Views -->
 <script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-
+<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script src="vendor/circle-flip-slideshow/js/jquery.flipshow.min.js"></script>
+<script src="js/views/view.home.js"></script>
 <!-- Current Page Vendor and Views -->
 <script src="js/views/view.contact.js"></script>
 
