@@ -33,10 +33,13 @@
 <link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
 
 <!-- Skin CSS -->
-<link rel="stylesheet" href="css/skins/skin-medical.css">
+
+
+<link rel="stylesheet" href="css/skins/default.css">
 
 <!-- Demo CSS -->
 		<link rel="stylesheet" href="css/demos/demo-medical.css">
+		<link rel="stylesheet" href="css/theme.css">
 
 <!-- Theme Custom CSS -->
 <link rel="stylesheet" href="css/custom.css">
@@ -96,20 +99,10 @@
                         </a>
                       </li>
                       <li class="dropdown dropdown-full-color dropdown-secondary">
-                        <a class="dropdown-toggle" href="vaccines">
+                        <a href="vaccines">
                           Vaccines
                         </a>
-                        <ul class="dropdown-menu">
-													<li><a href="vaccine-bcg">BCG Vaccine</a></li>
-													<li><a href="vaccine-dtp">DTP-containing vaccine</a></li>
-													<li><a href="vaccine-hepb">Hepatitis-B</a></li>
-													<li><a href="vaccine-hib">Haemophilus Influenzae type B</a></li>
-													<li><a href="vaccine-hpv">Human papilloma virus </a></li>
-													<li><a href="vaccine-mmr">MMR</a></li>
-													<li><a href="vaccine-pneum">Pneumococcal (Conjugate)</a></li>
-													<li><a href="vaccine-polio">Polio</a></li>
-													<li><a href="vaccine-rota">Rotavirus</a></li>
-                        </ul>
+                        
                       </li>
 											<li class="dropdown dropdown-full-color dropdown-secondary">
                         <a class="dropdown-toggle">
@@ -131,12 +124,154 @@
                         <a href="contact">
                           Contact
                         </a>
-                      </li>
-											<li class="${pageContext.request.requestURI eq '/sign' ? 'active' : ''}dropdown-full-color dropdown-secondary">
-                        <a href="sign">
-                          Sign Up/Sign In
-                        </a>
-                      </li>
+                      <li class="dropdown dropdown-mega dropdown-mega-signin signin" id="headerAccount">
+														<a class="dropdown-toggle" href="page-login.html">
+															<i class="fa fa-user"></i> Sign In
+														</a>
+														<ul class="dropdown-menu">
+															<li>
+																<div class="dropdown-mega-content">
+																	<div class="row">
+																		<div class="col-md-12">
+
+																			<div class="signin-form">
+
+																				<span class="dropdown-mega-sub-title">Sign In</span>
+
+																				<form action="/" id="frmSignIn" method="post">
+																					<div class="row">
+																						<div class="form-group">
+																							<div class="col-md-12 p-none">
+																								<label>Username or E-mail Address</label>
+																								<input type="text" value="" class="form-control input-lg" tabindex="1">
+																							</div>
+																						</div>
+																					</div>
+																					<div class="row">
+																						<div class="form-group">
+																							<div class="col-md-12 p-none">
+																								<a class="pull-right mt-none p-none" id="headerRecover" href="#">(Lost Password?)</a>
+																								<label>Password</label>
+																								<input type="password" value="" class="form-control input-lg" tabindex="2">
+																							</div>
+																						</div>
+																					</div>
+																					<div class="row">
+																						<div class="col-md-6 pl-none">
+																							<span class="remember-box checkbox">
+																								<label for="rememberme">
+																									<input type="checkbox" id="rememberme" name="rememberme">Remember Me
+																								</label>
+																							</span>
+																						</div>
+																						<div class="col-md-6 pr-none">
+																							<input type="submit" value="Login" class="btn btn-primary pull-right mb-xl" data-loading-text="Loading...">
+																						</div>
+																					</div>
+																				</form>
+
+																				<p class="sign-up-info">Don't have an account yet? <a href="#" id="headerSignUp" class="p-none m-none ml-xs">Sign Up</a></p>
+
+																			</div>
+
+																			<div class="signup-form">
+																				<span class="dropdown-mega-sub-title">Create Account</span>
+
+																				<div class="row">
+														<div class="form-group">
+															<div class="col-md-6">
+																<label>First Name (Parent)*</label>
+																<input type="text" value="" data-msg-required="Please enter your first name." maxlength="100" class="form-control" name="name" id="name" required>
+															</div>
+															<div class="col-md-6">
+																<label>Last Name *</label>
+																<input type="text" value="" data-msg-required="Please enter your last name." maxlength="100" class="form-control" name="name" id="name" required>
+															</div>
+															
+															
+														</div>
+														
+														</div>
+														
+													<div class="row">
+															<div class="form-group">
+																<div class="col-md-12">
+																	<label>Parent's email address *</label>
+																	<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
+																</div>	
+															</div>
+															
+													</div>
+													
+													<div class="row">
+															<div class="form-group">
+																<div class="col-md-12">
+																	<label>Password *</label>
+																	<input type="password" value="" data-msg-required="Please enter your email address." data-msg-email="Password only consists of (A-Z),(a-z) and (0-9)" maxlength="100" class="form-control" name="password" id="password" required>
+																</div>	
+															</div>
+															
+													</div>
+														
+													
+													<div class="row">
+														<div class="form-group">
+															<div class="col-md-12">
+																<label>Contact Number *</label>
+																<input type="text" value="" data-msg-required="Please enter the mobile number." maxlength="100" class="form-control" name="mob" id="mob" required>
+															</div>
+														</div>
+													</div>
+													
+													<div class="row">
+														<div class="col-md-4">
+															<input type="submit" value="Register" class="btn btn-primary mb-xl" data-loading-text="Loading...">
+														</div>
+														<div class="col-md-8">
+															<div class="alert alert-success hidden" id="contactSuccess">
+																Congrats! You have been registered!
+															</div>
+
+															<div class="alert alert-danger hidden" id="contactError">
+																Error! Sorry, Please Try Again!
+															</div>
+														</div>
+													</div>
+
+
+												<p class="log-in-info">Already have an account? <a href="#" id="headerSignIn" class="p-none m-none ml-xs">Log In</a></p>
+																			</div>
+
+																			<div class="recover-form">
+																				<span class="dropdown-mega-sub-title">Reset My Password</span>
+																				<p>Complete the form below to receive an email with the authorization code needed to reset your password.</p>
+
+																				<form action="/" id="frmResetPassword" method="post">
+																					<div class="row">
+																						<div class="form-group">
+																							<div class="col-md-12 p-none">
+																								<label>E-mail Address</label>
+																								<input type="text" value="" class="form-control input-lg">
+																							</div>
+																						</div>
+																					</div>
+																					<div class="row">
+																						<div class="col-md-12 p-none">
+																							<input type="submit" value="Submit" class="btn btn-primary pull-right mb-xl" data-loading-text="Loading...">
+																						</div>
+																					</div>
+																				</form>
+
+																				<p class="log-in-info">Already have an account? <a href="#" id="headerRecoverCancel" class="p-none m-none ml-xs">Log In</a></p>
+																			</div>
+
+																		</div>
+																	</div>
+																</div>
+															</li>
+														</ul>
+													</li>
+
                     </ul>
                   </nav>
                 </div>

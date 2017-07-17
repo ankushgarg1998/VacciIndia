@@ -4,35 +4,32 @@
       <div class="footer-ribbon">
         <span>Get in Touch</span>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-3">
         <div class="newsletter">
-          <h4>Reach Us</h4>
-			<div id="maps" class="google-map m-none mb-xl"></div>
+          <h4>Newsletter</h4>
+          <p>Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our newsletter.</p>
+
+          <div class="alert alert-success hidden" id="newsletterSuccess">
+            <strong>Success!</strong> You've been added to our email list.
+          </div>
+
+          <div class="alert alert-danger hidden" id="newsletterError"></div>
+
+          <form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST">
+            <div class="input-group">
+              <input class="form-control" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit">Go!</button>
+              </span>
+            </div>
+          </form>
         </div>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYi6ChCG9E7HDpeO0fyUfSZ635t7FquUE"></script>
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-        <script type="text/javascript">
-        google.maps.event.addDomListener(window, 'load', init);
-        function init() {
-        	var mapOptions = {
-        			zoom: 17,
-        			center: new google.maps.LatLng(28.621175, 77.092686),
-        			scrollwheel: false, 
-        			draggable: false,
-        			styles: [{"featureType":"administrative","elementType":"all","stylers":[{"saturation":"-100"}]},{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","elementType":"all","stylers":[{"saturation":-100},{"lightness":"50"},{"visibility":"simplified"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":"-100"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"all","stylers":[{"lightness":"30"}]},{"featureType":"road.local","elementType":"all","stylers":[{"lightness":"40"}]},{"featureType":"transit","elementType":"all","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]},{"featureType":"water","elementType":"labels","stylers":[{"lightness":-25},{"saturation":-100}]}]
-        			
-            };
-        	var mapElement = document.getElementById('maps');
-        	var map = new google.maps.Map(mapElement, mapOptions);
-        	var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(28.621175, 77.092686),
-                map: map,
-                icon: 'img/pin.png',
-                title: 'Us!'
-        	});
-        	}
-        </script>
-        }
+      </div>
+      <div class="col-md-3">
+        <h4>Latest Tweets</h4>
+        <div id="tweet" class="twitter" data-plugin-tweets data-plugin-options="{'username': '', 'count': 2}">
+          <p>Please wait...</p>
+        </div>
       </div>
       <div class="col-md-4">
         <div class="contact-details">
@@ -59,7 +56,7 @@
       <div class="row">
         <div class="col-md-1">
           <a href="home" class="logo">
-            <img alt="Porto Website Template" class="img-responsive" src="img/logo-footer-dark.png">
+            <img alt="Porto Website Template" class="img-responsive" src="img/logo-footer.png">
           </a>
         </div>
         <div class="col-md-7">

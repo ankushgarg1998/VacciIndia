@@ -496,7 +496,7 @@ html:not(.sticky-header-active) #header.header-transparent-sticky-deactive .head
 	}
 
 	#header .header-nav-main nav > ul > li.open > a, #header .header-nav-main nav > ul > li:hover > a {
-		background: #CCC;
+		background: #0088cc;
 		color: #FFF;
 	}
 
