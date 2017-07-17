@@ -31,7 +31,7 @@
 
 						<div class="feature-box feature-box-style-2 mb-lg">
 							<div class="feature-box-icon">
-								<img src="img/demos/medical/icons/department-icon-cardiology.png" alt class="img-responsive" />
+								<img src="images/syringe.jpg" alt class="img-responsive" />
 							</div>
 							<div class="feature-box-info ml-md">
 								<h2 class="font-weight-semibold mb-md">MMR</h2>
@@ -39,7 +39,7 @@
 
 										</p>
 
-								<img src="img/demos/medical/gallery/gallery-4.jpg" style="max-width: 260px;" alt="" class="pull-right ml-xl mb-xl img-responsive box-shadow-custom" />
+								<img src="images/mmrvaccine.jpg" style="max-width: 260px;" alt="" class="pull-right ml-xl mb-xl img-responsive box-shadow-custom" />
 
 								<p>Measles is a very contagious disease caused by a virus.<br>The vaccine protects against three diseases: measles, mumps, and rubella.<br>
 Measles causes fever, rash, cough, runny nose, and red, watery eyes. Complications can include ear infection, diarrhea, pneumonia, brain damage, and death.<br>

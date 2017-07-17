@@ -29,7 +29,7 @@
 
 						<div class="feature-box feature-box-style-2 mb-lg">
 							<div class="feature-box-icon">
-								<img src="img/demos/medical/icons/department-icon-cardiology.png" alt class="img-responsive" />
+								<img src="images/syringe.jpg" alt class="img-responsive" />
 							</div>
 							<div class="feature-box-info ml-md">
 								<h2 class="font-weight-semibold mb-md">Haemophilus Influenzae type B</h2>
@@ -37,7 +37,7 @@
 
 										</p>
 
-								<img src="img/demos/medical/gallery/gallery-4.jpg" style="max-width: 260px;" alt="" class="pull-right ml-xl mb-xl img-responsive box-shadow-custom" />
+								<img src="images/images.jpg" style="max-width: 260px;" alt="" class="pull-right ml-xl mb-xl img-responsive box-shadow-custom" />
 
 								<p>Haemophilus influenzae type b (Hib) disease is a serious disease caused by bacteria.  It usually affects children under 5 years old. It can also affect adults with certain medical conditions.<br>
                   The bacteria can cause epiglottitis (severe swelling in the throat that makes it hard to breathe), a serious form of pneumonia, and a disease called bacterial meningitis.<br>

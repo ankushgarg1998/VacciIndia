@@ -143,7 +143,7 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-4 col-md-4">
-							<a href="demo-medical-resources-detail.html" class="text-decoration-none">
+							<a href="vaccine-bcg" class="text-decoration-none">
 								<span class="thumb-info thumb-info-side-image thumb-info-side-image-custom thumb-info-no-zoom thumb-info-no-zoom thumb-info-side-image-custom-highlight">
 									<span class="thumb-info-side-image-wrapper">
 										<img alt="" class="img-responsive" src="images/home-vaccine-1.jpg">
@@ -158,7 +158,7 @@
 							</a>
 						</div>
 						<div class="col-sm-4 col-md-4">
-							<a href="demo-medical-resources-detail.html" class="text-decoration-none">
+							<a href="vaccine-dtp" class="text-decoration-none">
 								<span class="thumb-info thumb-info-side-image thumb-info-side-image-custom thumb-info-no-zoom thumb-info-no-zoom thumb-info-side-image-custom-highlight">
 									<span class="thumb-info-side-image-wrapper">
 										<img alt="" class="img-responsive" src="images/home-vaccine-2.jpg">
@@ -173,7 +173,7 @@
 							</a>
 						</div>
 						<div class="col-sm-4 col-md-4">
-							<a href="demo-medical-resources-detail.html" class="text-decoration-none">
+							<a href="vaccine-hepb" class="text-decoration-none">
 								<span class="thumb-info thumb-info-side-image thumb-info-side-image-custom thumb-info-no-zoom thumb-info-no-zoom thumb-info-side-image-custom-highlight">
 									<span class="thumb-info-side-image-wrapper">
 										<img alt="" class="img-responsive" src="images/home-vaccine-3.jpg">

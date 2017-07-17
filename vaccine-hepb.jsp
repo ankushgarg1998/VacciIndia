@@ -31,7 +31,7 @@
 
 						<div class="feature-box feature-box-style-2 mb-lg">
 							<div class="feature-box-icon">
-								<img src="img/demos/medical/icons/department-icon-cardiology.png" alt class="img-responsive" />
+								<img src="images/syringe.jpg" alt class="img-responsive" />
 							</div>
 							<div class="feature-box-info ml-md">
 								<h2 class="font-weight-semibold mb-md">Hepatitis-B Vaccine</h2>
@@ -39,7 +39,7 @@
 
 										</p>
 
-								<img src="img/demos/medical/gallery/gallery-4.jpg" style="max-width: 260px;" alt="" class="pull-right ml-xl mb-xl img-responsive box-shadow-custom" />
+								<img src="images/hepbvaccine.jpg" style="max-width: 260px;" alt="" class="pull-right ml-xl mb-xl img-responsive box-shadow-custom" />
 
 								<p>Hepatitis B vaccine is made from parts of the hepatitis B virus. It cannot cause hepatitis B infection. The vaccine is usually given as 3 or 4 shots over a 6-month period.
 Infants should get their first dose of hepatitis B vaccine at birth and will usually complete the series at 6 months of age.

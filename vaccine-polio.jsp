@@ -31,7 +31,7 @@
 
 						<div class="feature-box feature-box-style-2 mb-lg">
 							<div class="feature-box-icon">
-								<img src="img/demos/medical/icons/department-icon-cardiology.png" alt class="img-responsive" />
+								<img src="images/polio.jpg" alt class="img-responsive" />
 							</div>
 							<div class="feature-box-info ml-md">
 								<h2 class="font-weight-semibold mb-md">Polio Vaccine</h2>
@@ -39,7 +39,7 @@
 
 										</p>
 
-								<img src="img/demos/medical/gallery/gallery-4.jpg" style="max-width: 260px;" alt="" class="pull-right ml-xl mb-xl img-responsive box-shadow-custom" />
+								<img src="images/poliovaccine.jpg" style="max-width: 260px;" alt="" class="pull-right ml-xl mb-xl img-responsive box-shadow-custom" />
 
 								<p>Children get polio vaccine to protect against polio, or poliomyelitis.<br>
 								Polio vaccine is of two types :<br>
