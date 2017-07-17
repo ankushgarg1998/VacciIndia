@@ -148,9 +148,11 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="col-md-4">
-				<h4 class="heading-primary text-uppercase mb-md">Register An Account</h4>
-				<h5>To customize this chart according to your baby's birth.</h5>
+			
+
+	<div class="col-md-4">
+				<h4 class="heading-primary text-uppercase mb-md">Enter Details</h4>
+				<h5>To customize this chart according to dates.</h5>
 				<form action="/" id="frmSignUp" method="post">
 					<div class="row">
 
@@ -161,25 +163,29 @@
 							</div>
 						</div>
 
-						
-
 						<div class="form-group">
 							<div class="col-md-12">
-								<label>Date of Birth</label>
+								<label>Date of Birth*</label>
 								<input type="date" value="" class="form-control input-lg">
 							</div>
 						</div>
 					</div>
 
-					
-							
-					</div>
 					<div class="row">
 						<div class="col-md-12">
-							<input type="submit" value="Register" class="btn btn-primary pull-right mb-xl" data-loading-text="Loading...">
+							<input type="submit" value="Submit" required class="btn btn-primary pull-right mb-xl" data-loading-text="Loading...">
 						</div>
 					</div>
 				</form>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<hr class="tall">
+			</div>
+		</div>
 			</div>
 		</div>
 

@@ -23,38 +23,48 @@
 					</div>
 				</section>
 
-				<div class="container">
-					<%-- <div class="row">
-						<div class="col-md-12 center">
-							<div class="logo">
-								<a href="index.html">
-									<img width="111" height="54" src="img/logo-default.png" alt="Porto">
-								</a>
-							</div>
-						</div>
-					</div>
+				<%-- <div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<hr class="tall">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 center">
-							<h1 class="mb-sm small">Vacci Locator is coming soon.</h1>
-							<p class="mb-none lead">Vacci at Home is an initiative to provide with vaccination services at your Doorstep</p>
-							<p>With this feature you will be able to pre-book vaccination on a particular date. And you child will be supplied vaccination from certified doctors at your home.</p>
 						</div>
 					</div> --%>
-					<div class="row">
-						<div class="col-md-12">
-							<hr class="tall">
+
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8">
+								<h3>Pediatricians Near your Area</h3>
+								<div id="map"></div>
+							</div>
+							<%-- <div class="col-md-1"></div> --%>
+							<div class="col-md-4">
+								<h4 class="heading-primary text-uppercase mb-md">Enter Your Location</h4>
+								<h5>To find nearby Vaccination Locations.</h5>
+								<form action="#" id="frmSignUp" method="post">
+									<div class="row">
+
+										<div class="form-group">
+											<div class="col-md-12">
+												<input type="button" value="Choose Automatically" class="btn btn-block btn-primary">
+											</div>
+										</div>
+										<h5 style="text-align:center;">OR</h5>
+										<div class="form-group">
+											<div class="col-md-12">
+												<label>Enter Location</label>
+												<input type="text" value="" class="form-control input-lg">
+											</div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-12">
+											<input type="submit" value="Submit" required class="btn btn-primary pull-right mb-xl" data-loading-text="Loading...">
+										</div>
+									</div>
+								</form>
+							</div>
 						</div>
-					</div>
-
-
-					<h3>Vaccination clinics near you</h3>
-					<div id="map"></div>
-
 
 					<div class="row">
 						<div class="col-md-12">
@@ -64,7 +74,6 @@
 
 				</div>
 			</div>
-
 
 
 			<script>
