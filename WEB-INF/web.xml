@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>Trial</servlet-name>
+		<servlet-class>pkg.TrialServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Trial</servlet-name>
+		<url-pattern>/trial</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>vaccines</servlet-name>
+		<jsp-file>vaccines.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccines</servlet-name>
+		<url-pattern>/vaccines</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>vaccine-bcg</servlet-name>
+		<jsp-file>vaccine-bcg.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-bcg</servlet-name>
+		<url-pattern>/vaccine-bcg</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccine-dtp</servlet-name>
+		<jsp-file>vaccine-dtp.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-dtp</servlet-name>
+		<url-pattern>/vaccine-dtp</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccine-hepb</servlet-name>
+		<jsp-file>vaccine-hepb.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-hepb</servlet-name>
+		<url-pattern>/vaccine-hepb</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccine-hib</servlet-name>
+		<jsp-file>vaccine-hib.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-hib</servlet-name>
+		<url-pattern>/vaccine-hib</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccine-hpv</servlet-name>
+		<jsp-file>vaccine-hpv.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-hpv</servlet-name>
+		<url-pattern>/vaccine-hpv</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccine-mmr</servlet-name>
+		<jsp-file>vaccine-mmr.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-mmr</servlet-name>
+		<url-pattern>/vaccine-mmr</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccine-pneum</servlet-name>
+		<jsp-file>vaccine-pneum.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-pneum</servlet-name>
+		<url-pattern>/vaccine-pneum</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccine-polio</servlet-name>
+		<jsp-file>vaccine-polio.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-polio</servlet-name>
+		<url-pattern>/vaccine-polio</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccine-rota</servlet-name>
+		<jsp-file>vaccine-rota.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccine-rota</servlet-name>
+		<url-pattern>/vaccine-rota</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>home</servlet-name>
+		<jsp-file>home.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>home</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>about</servlet-name>
+		<jsp-file>about.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>about</servlet-name>
+		<url-pattern>/about</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccines</servlet-name>
+		<jsp-file>vaccines.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccines</servlet-name>
+		<url-pattern>/vaccines</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>scheduler</servlet-name>
+		<jsp-file>scheduler.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>scheduler</servlet-name>
+		<url-pattern>/scheduler</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vaccilocator</servlet-name>
+		<jsp-file>vaccilocator.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vaccilocator</servlet-name>
+		<url-pattern>/vaccilocator</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>pdlocator</servlet-name>
+		<jsp-file>pdlocator.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>pdlocator</servlet-name>
+		<url-pattern>/pdlocator</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>vacciathome</servlet-name>
+		<jsp-file>vacciathome.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vacciathome</servlet-name>
+		<url-pattern>/vacciathome</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>faq</servlet-name>
+		<jsp-file>faq.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>faq</servlet-name>
+		<url-pattern>/faq</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>contact</servlet-name>
+		<jsp-file>contact.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>contact</servlet-name>
+		<url-pattern>/contact</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>sign</servlet-name>
+		<jsp-file>sign.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sign</servlet-name>
+		<url-pattern>/sign</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>err</servlet-name>
+		<jsp-file>err.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>err</servlet-name>
+		<url-pattern>/err</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
