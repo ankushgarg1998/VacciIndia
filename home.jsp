@@ -22,10 +22,10 @@
 										data-transform_in="x:[-300%];opacity:0;s:500;"><img src="img/slides/slide-title-border.png" alt=""></div>
 
 									<div class="tp-caption top-label"
-										data-x="227"
-										data-y="190"
+										data-x="500"
+										data-y="400"
 										data-start="500"
-										data-transform_in="y:[-300%];opacity:0;s:500;">DO YOU NEED A NEW</div>
+										data-transform_in="y:[-300%];opacity:0;s:500;"></div>
 
 									<div class="tp-caption"
 										data-x="480"
@@ -40,13 +40,13 @@
 										data-whitespace="nowrap"						 
 										data-transform_in="y:[100%];s:500;"
 										data-transform_out="opacity:0;s:500;"
-										data-mask_in="x:0px;y:0px;">WEB DESIGN?</div>
+										data-mask_in="x:0px;y:0px;"> VACCI-INDIA    </div>
 
 									<div class="tp-caption bottom-label"
 										data-x="185"
 										data-y="290"
 										data-start="2000"
-										data-transform_in="y:[100%];opacity:0;s:500;">Check out our options and features.</div>
+										data-transform_in="y:[100%];opacity:0;s:500;"> Immunize. Power to protect! </div>
 									
 								</li>
 							</ul>
@@ -59,14 +59,14 @@
 							<div class="row">
 								<div class="col-md-8">
 									<p>
-										The fastest way to grow your business with the leader in <em>Technology</em>
-										<span>Check out our options and features included.</span>
+										Our campaign aims for an immune world for your precious little life. Providing you the service of Vaccination, Vacci-India makes sure that your  <em>child steps</em> 
+										into a healthy future.
 									</p>
 								</div>
 								<div class="col-md-4">
 									<div class="get-started">
-										<a href="#" class="btn btn-lg btn-primary">Get Started Now!</a>
-										<div class="learn-more">or <a href="index.html">learn more.</a></div>
+										
+										
 									</div>
 								</div>
 							</div>
@@ -87,20 +87,20 @@
 					<div class="row center">
 						<div class="col-md-12">
 							<h1 class="mb-sm word-rotator-title">
-								Porto is
+								Vaccines are the 
 								<strong class="inverted">
 									<span class="word-rotate" data-plugin-options="{'delay': 2000, 'animDelay': 300}">
 										<span class="word-rotate-items">
-											<span>incredibly</span>
-											<span>especially</span>
-											<span>extremely</span>
+											<span>tugboats</span>
+											<span>helm</span>
+											<span>jackets</span>
 										</span>
 									</span>
 								</strong>
-								beautiful and fully responsive.
+								of  preventive health.
 							</h1>
 							<p class="lead">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum, nulla vel pellentesque consequat, ante nulla hendrerit arcu, ac tincidunt mauris lacus sed leo. vamus suscipit molestie vestibulum.
+								</p> The mission of the Vacci-India is to help internet users find reliable vaccine safety information for their babies as per their needs. It also aims at reducing the time for vaccines to reach child living in poor areas. More than two million children die each year from diseases which can be prevented. 
 							</p>
 						</div>
 					</div>
@@ -264,7 +264,7 @@
 						<div class="col-md-4">
 							<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 								<div class="feature-box-icon">
-									<img src="img/demos/medical/icons/department-icon-cardiology.png" alt class="img-responsive" />
+									<img src="images/polio.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold"><a href="vaccine-bcg.jsp" class="text-decoration-none">BCG Vaccine</a></h4>
@@ -275,7 +275,7 @@
 						<div class="col-md-4">
 							<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 								<div class="feature-box-icon">
-									<img src="img/demos/medical/icons/department-icon-gastroenterology.png" alt class="img-responsive" />
+									<img src="images/polio.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold"><a href="vaccine-hepb.jsp" class="text-decoration-none">Hepatitis-B Vaccine</a></h4>
@@ -286,7 +286,7 @@
 						<div class="col-md-4">
 							<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 								<div class="feature-box-icon">
-									<img src="img/demos/medical/icons/department-icon-pulmonology.png" alt class="img-responsive" />
+									<img src="images/syringe.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold"><a href="vaccine-polio.jsp" class="text-decoration-none">Polio Vaccine</a></h4>
@@ -299,7 +299,7 @@
 						<div class="col-md-4">
 							<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 								<div class="feature-box-icon">
-									<img src="img/demos/medical/icons/department-icon-dental.png" alt class="img-responsive" />
+									<img src="images/polio.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold"><a href="vaccine-dtp.jsp" class="text-decoration-none">DTP-containing vaccine</a></h4>
@@ -310,7 +310,7 @@
 						<div class="col-md-4">
 							<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 								<div class="feature-box-icon">
-									<img src="img/demos/medical/icons/department-icon-gynecology.png" alt class="img-responsive" />
+									<img src="images/polio.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold"><a href="vaccine-hib.jsp" class="text-decoration-none">Haemophilus Influenzae B</a></h4>
@@ -321,7 +321,7 @@
 						<div class="col-md-4">
 							<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 								<div class="feature-box-icon">
-									<img src="img/demos/medical/icons/department-icon-hepatology.png" alt class="img-responsive" />
+									<img src="images/syringe.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold"><a href="vaccine-pneum.jsp" class="text-decoration-none">Pneumococcal (Conjugate)</a></h4>
@@ -334,7 +334,7 @@
 						<div class="col-md-4">
 							<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 								<div class="feature-box-icon">
-									<img src="img/demos/medical/icons/department-icon-dental.png" alt class="img-responsive" />
+									<img src="images/syringe.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold"><a href="vaccine-rota.jsp" class="text-decoration-none">Rotavirus</a></h4>
@@ -345,7 +345,7 @@
 						<div class="col-md-4">
 							<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 								<div class="feature-box-icon">
-									<img src="img/demos/medical/icons/department-icon-gynecology.png" alt class="img-responsive" />
+									<img src="images/polio.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold"><a href="vaccine-mmr.jsp" class="text-decoration-none">MMR</a></h4>
@@ -356,7 +356,7 @@
 						<div class="col-md-4">
 							<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 								<div class="feature-box-icon">
-									<img src="img/demos/medical/icons/department-icon-hepatology.png" alt class="img-responsive" />
+									<img src="images/polio.jpg" alt class="img-responsive" />
 								</div>
 								<div class="feature-box-info ml-md">
 									<h4 class="font-weight-semibold"><a href="vaccine-hpv.jsp" class="text-decoration-none">Human papilloma virus</a></h4>
