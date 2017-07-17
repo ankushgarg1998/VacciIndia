@@ -24,10 +24,8 @@
 					<div class="row">
 						<div class="col-md-12">
 							<p class="lead">
-								
-								A vaccine is a biological preparation that improves immunity to a particular disease. A vaccine typically contains an agent that resembles a disease-causing microorganism, and is often made from weakened or killed forms of the microbe, its toxins or one of its surface proteins. The agent stimulates the body's immune system to recognize the agent as foreign, destroy it, and "remember" it, so that the immune system can more easily recognize and destroy any of these microorganisms that it later encounters.<br>
-								So let us answer some of your queries about it.......
-						
+								"FAQ" referred to the Frequently Asked Question itself, and the compilation of questions and answers was known as a "FAQ list" or some similar expression, all supposed to be commonly asked in some context, and pertaining to a particular topic. The format is commonly used on email mailing lists and other online forums, where certain common questions tend to recur. The FAQ seems to have originated in many of the Usenet groups as a way to acquaint new users with the rules.
+							</p>
 						</div>
 					</div>
 
@@ -40,14 +38,7 @@
 								<section class="toggle active">
 									<label>How does it work?</label>
 									<p> You dont need to save any kind of prescription with you about the timings of vaccines. You can simply use our website to check the same. </p>
-								<section class="toggle">
-									<label>Why do some parents  don't vaccinate their child? </label>
-									<p>Here are some myths regarding vaccination 
-									<br>1.So many vaccines so soon will overwhelm my baby's immune system.
-									<br>Truth:	With the time disease causing microbes increased exponentially for eg.Parents born in the 1970s and '80s were vaccinated against eight diseases. A fully vaccinated two-year-old today, on the other hand, can beat back 14 diseases.
-									<br>2.My child's immune system is immature, so it's safer to delay some vaccines or just get the most important ones.<br>
-										Truth:Delaying some vaccines may be very dangerous for eg.In the case of MMR, delaying the vaccine by even three months slightly increases the risk of febrile seizures.ù
-								</section>
+
 								<section class="toggle">
 									<label>Is it for free?</label>
 									<p>Yes, it is mainly for a social cause. All you need to do is register with us so we can send mails regarding regular checkups!</p>
@@ -66,7 +57,7 @@
 
 								<section class="toggle">
 									<label>Do they side effects?</label>
-									<p>They don't some common side effects are a fever or sore arm. There is a very small risk that a serious problem could occur after getting a vaccine. However, the potential risks  from the dosease s vaccines prevent are much greater than the potential riska assosciated with the vaccines themselves.   </p>
+									<p>They dont! Some common side effets are a fever or sore arm. There is a very small risk that a serious problem could occur after getting a vaccine. However, the potential risks  from the dosease s vaccines prevent are much greater than the potential riska assosciated with the vaccines themselves.   </p>
 								</section>
 
 								<section class="toggle">
@@ -86,12 +77,12 @@
 
 								<section class="toggle">
 									<label>What diseases do vaccines protect against?</label>
-									<p> Immunizing your baby with vaccines protects against serious diseases like cough, Polio, Tetanus, Rotavirus, Hepatitis B, Chickenpox, etc.    </p>
+									<p> Immunizing your baby with vaccines protects against serious diseases like cough, polio, tetanus, rotavirus, hepatitis B, chickenpox, etc.    </p>
 								</section>
 
 								<section class="toggle">
 									<label>How many times do I need to bring my baby in for vaccinations?</label>
-									<p> At least five visits are needed before the age of two. Your baby should get the first vaccine (Hepatitis B) at birth, while still in the hospital. Multiple visits are necessary because there are 14 diseases your baby can be protected against. </p>
+									<p> At least five visits are needed before the age of two. Your baby should get the first vaccine (hepatitis B) at birth, while still in the hospital. Multiple visits are necessary because there are 14 diseases your baby can be protected against. </p>
 							</div>
 
 						</div>
