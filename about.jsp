@@ -121,29 +121,40 @@
 							<ul class="history">
 								<li class="appear-animation" data-appear-animation="fadeInUp">
 									<div class="thumb">
-										<img src="img/office/office-4.jpg" alt="" />
+										<img src="images/sim.jpg" alt="" />
 									</div>
 									<div class="featured-box">
 										<div class="box-content">
 											<h4 class="heading-primary"><strong>Simran Sehrawat</strong></h4><br>
-											<p>Team Lead. Her lunch is tasty. She cares the most about our misery but sleeps the earliest.</p>
+											<p>She’s our team lead, so... *praises* *praises* *again praises* *help us! These praises are forceful* *praises some more* *this praise is useless*. Her lunch is tasty. She cares the most about our misery but sleeps the earliest.</p>
 										</div>
 									</div>
 								</li>
 								<li class="appear-animation" data-appear-animation="fadeInUp">
 									<div class="thumb">
-										<img src="img/office/office-2.jpg" alt="" />
+										<img src="images/ank.jpeg" alt="" />
+									</div>
+									<div class="featured-box">
+										<div class="box-content">
+											<h4 class="heading-primary"><strong>Ankush Garg</strong></h4><br>
+											<p>The guys who cannot go a day without saying “manta hai na bhai ko” (do you acknowledge your brother)... and also he thinks he is handsome. LEL. Has a physique of Ram Kapoor but thinks himself as Arnold. Has a sad life, calls himself a comedian but did only one stand up and that also included studies.</p>
+										</div>
+									</div>
+								</li>
+								<li class="appear-animation" data-appear-animation="fadeInUp">
+									<div class="thumb">
+										<img src="images/anu.jpg" alt="" />
 									</div>
 									<div class="featured-box">
 										<div class="box-content">
 											<h4 class="heading-primary"><strong>Anuj Jadon</strong></h4><br>
-											<p>Ye banda humare college se ni h. Kaafi bharamchaari balak. Iski vajah se kal mujhe subah 5 baje tak coding karni padi.</p>
+											<p>Ye banda humare college se ni h. Kaafi bharamchaari balak. The guy who has his name set as “Snyper_drydan” as his Whatsapp name and computer’s user name and yes, you read that right; no, that wasn’t a typo, need I say more?</p>
 										</div>
 									</div>
 								</li>
 								<li class="appear-animation" data-appear-animation="fadeInUp">
 									<div class="thumb">
-										<img src="img/office/office-1.jpg" alt="" />
+										<img src="images/ayu.jpg" alt="" />
 									</div>
 									<div class="featured-box">
 										<div class="box-content">
@@ -154,23 +165,12 @@
 								</li>
 								<li class="appear-animation" data-appear-animation="fadeInUp">
 									<div class="thumb">
-										<img src="img/office/office-4.jpg" alt="" />
+										<img src="images/shi.jpg" alt="" />
 									</div>
 									<div class="featured-box">
 										<div class="box-content">
 											<h4 class="heading-primary"><strong>Shivam Mehta</strong></h4><br>
-											<p>Admin of almost all Whatsapp groups. Chacha vidhayak hai humare.</p>
-										</div>
-									</div>
-								</li>
-								<li class="appear-animation" data-appear-animation="fadeInUp">
-									<div class="thumb">
-										<img src="img/office/office-3.jpg" alt="" />
-									</div>
-									<div class="featured-box">
-										<div class="box-content">
-											<h4 class="heading-primary"><strong>Ankush Garg</strong></h4><br>
-											<p>Somebody save me from these people.</p>
+											<p>The troubled guy in our team who’s computer undergoes mood swings and mostly just refuses to work. This guy has it hard and if windows were a game his difficulty level is like legendary still gets to be the admin of all Whatapp groups. (coincidence, I think not!) Chacha vidhayak hai humare.</p>
 										</div>
 									</div>
 								</li>
@@ -178,7 +178,6 @@
 
 						</div>
 					</div>
-
 				</div>
 
 			</div>

@@ -53,6 +53,29 @@
 								</div>
 							</div>
 				</div>
+				<div class="home-intro" id="home-intro">
+					<div class="container">
+
+						<div class="row">
+							<div class="col-md-8">
+								<p>
+									Our campaign aims for an immune world for your little one's precious life. Providing you
+									the service of Vaccination. Vacci-India makes sure that your<em> child steps </em>into a
+									healthy future
+									<%-- <span>Check out our options and features included.</span> --%>
+								</p>
+							</div>
+							<div class="col-md-4">
+								<div class="get-started">
+									<a href="sign" class="btn btn-lg btn-primary">Register Now!</a>
+									<div class="learn-more">or <a href="index.html">to get started.</a></div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
 				<hr>
 				<div class="container">
 
@@ -144,7 +167,7 @@
 											</ul>
 										</div>
 									</div>
-									<strong class="our-work appear-animation" data-appear-animation="fadeInDown" data-appear-animation-delay="3150" data-plugin-options="{'accY': 300}">Our Work</strong>
+									<strong class="our-work appear-animation" data-appear-animation="fadeInDown" data-appear-animation-delay="3150" data-plugin-options="{'accY': 300}">Our Services</strong>
 								</div>
 							</div>
 						</div>
@@ -374,8 +397,8 @@
 																<span class="day">15</span>
 																<span class="month">Jan</span>
 															</div>
-															<h4 class="heading-primary"><a href="blog-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
-															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat libero. <a href="/" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
+															<h4 class="heading-primary"><a href="blog-post.html">Modi Govt. pushes for vaccinated India</a></h4>
+															<p>BJP campigns on All India Radio, Television and News Papers for spreading awareness.<a href="/" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
 														</article>
 													</div>
 													<div class="col-md-6">
@@ -384,8 +407,8 @@
 																<span class="day">15</span>
 																<span class="month">Jan</span>
 															</div>
-															<h4 class="heading-primary"><a href="blog-post.html">Lorem ipsum dolor</a></h4>
-															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat. <a href="/" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
+															<h4 class="heading-primary"><a href="blog-post.html">Every 1 in 10 infants were't vaccinated in 2016</a></h4>
+															<p>Reports state that lack of vaccination could be lethal.<a href="/" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
 														</article>
 													</div>
 												</div>
@@ -396,8 +419,8 @@
 																<span class="day">12</span>
 																<span class="month">Jan</span>
 															</div>
-															<h4 class="heading-primary"><a href="blog-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
-															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat libero. <a href="/" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
+															<h4 class="heading-primary"><a href="blog-post.html">Needle free patch makes vaccination easy.</a></h4>
+															<p>To make vaccines more accessible and tranportable and to be delivered in Vans.<a href="/" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
 														</article>
 													</div>
 													<div class="col-md-6">
@@ -406,33 +429,12 @@
 																<span class="day">11</span>
 																<span class="month">Jan</span>
 															</div>
-															<h4 class="heading-primary"><a href="blog-post.html">Lorem ipsum dolor</a></h4>
-															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="/" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
+															<h4 class="heading-primary"><a href="blog-post.html">Delhi Govt. to add more Vaccine Clinics.</a></h4>
+															<p>In the last few months it has added 20 such centers in the state.<a href="/" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
 														</article>
 													</div>
 												</div>
-												<div>
-													<div class="col-md-6">
-														<article>
-															<div class="date">
-																<span class="day">15</span>
-																<span class="month">Jan</span>
-															</div>
-															<h4 class="heading-primary"><a href="blog-post.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
-															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat libero. <a href="/" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
-														</article>
-													</div>
-													<div class="col-md-6">
-														<article>
-															<div class="date">
-																<span class="day">15</span>
-																<span class="month">Jan</span>
-															</div>
-															<h4 class="heading-primary"><a href="blog-post.html">Lorem ipsum dolor</a></h4>
-															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat. <a href="/" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
-														</article>
-													</div>
-												</div>
+
 											</div>
 										</div>
 									</div>
@@ -445,14 +447,14 @@
 												<div class="col-md-12">
 													<div class="testimonial testimonial-primary">
 														<blockquote>
-															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat.  Donec hendrerit vehicula est, in consequat.  Donec hendrerit vehicula est, in consequat.</p>
+															<p>I'm very commited to making sure my kids recieve all of their immunizations on time. In our house, getting Immunizations is the same as wearing a helmet while biking and buckling up while getting into cars. The thought of my kids having to suffer through a vaccine preventable disease when there is a way to prevent them breaks my heart.</p>
 														</blockquote>
 														<div class="testimonial-arrow-down"></div>
 														<div class="testimonial-author">
 															<div class="testimonial-author-thumbnail img-thumbnail">
-																<img src="img/clients/client-1.jpg" alt="">
+																<img src="images/fd.jpg" alt="">
 															</div>
-															<p><strong>John Smith</strong><span>CEO & Founder - Okler</span></p>
+															<p><span style="font-size:18px;">Aryn Michaels</span><span>CEO & Founder - Okler</span></p>
 														</div>
 													</div>
 												</div>
@@ -461,14 +463,14 @@
 												<div class="col-md-12">
 													<div class="testimonial testimonial-primary">
 														<blockquote>
-															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat.</p>
+															<p>As a child care giver I'm so thankful to immunization. Children share everything! All the kids in my care are fully vaccinated which means we can focus on the positive things, learning, growing and having fun.</p>
 														</blockquote>
 														<div class="testimonial-arrow-down"></div>
 														<div class="testimonial-author">
 															<div class="testimonial-author-thumbnail img-thumbnail">
-																<img src="img/clients/client-1.jpg" alt="">
+																<img src="images/md.jpg" alt="">
 															</div>
-															<p><strong>John Smith</strong><span>CEO & Founder - Okler</span></p>
+															<p><span style="font-size:18px;">John Smith</span><span>Nurse - Max Hospitals</span></p>
 														</div>
 													</div>
 												</div>
