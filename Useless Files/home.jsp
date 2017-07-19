@@ -1,6 +1,6 @@
-Our Services<%@ include file = "header1.jsp" %>
+Our Services<%@ include file = "../header1.jsp" %>
 		<title>Home | VacciIndia</title>
-<%@ include file = "header2.jsp" %>
+<%@ include file = "../header2.jsp" %>
 
 			<div role="main" class="main">
 
@@ -410,6 +410,6 @@ Our Services<%@ include file = "header1.jsp" %>
 				</div>
 			</section>
 
-<%@ include file = "footer.jsp" %>
+<%@ include file = "../footer.jsp" %>
 		</div>
-<%@ include file = "scripts.jsp" %>
+<%@ include file = "../scripts.jsp" %>
