@@ -1,3 +1,4 @@
+<%@ page import="org.joda.time.LocalDate" %>
 <!DOCTYPE html>
 <html>
 	<head>

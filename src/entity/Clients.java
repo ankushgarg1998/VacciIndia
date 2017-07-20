@@ -12,7 +12,7 @@ public class Clients {
 	String fname;
 	@Index
 	String lname;
-	String pass;
+	public String pass;
 	String contact;
 	public Clients() {
 

@@ -1,49 +1,27 @@
-<%@ include file="header1.jsp"%>
-<title>Vacci @Home | VacciIndia</title>
+<%@ page import="org.joda.time.LocalDate" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+ <%@ include file="header1.jsp"%>
+<title>Customized Schedule</title>
+<style type="text/css" media="print">
+  @page { size: landscape; }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <%@ include file="header2.jsp"%>
-<div role="main" class="main">
-
-
-	<section
-		class="page-header page-header-color page-header-primary page-header-float-breadcrumb">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h1 class="mt-xs">
-						Vacci Scheduler<span>A calendar for vaccinations which also
-							sends notifications.</span>
-					</h1>
-					<ul class="breadcrumb breadcrumb-valign-mid">
-						<li><a href="#">Home</a></li>
-						<li class="active">Vacci Scheduler</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<hr class="tall">
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-8" >
-				
-				<%if((request.getAttribute("dob") == null) && (request.getAttribute("name")== null))
+<div class="container">
+		
+			<%if((request.getParameter("dob") == null) && (request.getParameter("name")== null))
 				{
 					%>
-					
-					<table class="table table-striped table-bordered primary table-hover">
+					<div id="table_wrapper">
+					<table class="table table-striped table-bordered primary table-hover footable" id="list">
 
 					<thead>
 						<tr>
 							<th>S.no</th>
 							<th>Vaccine</th>
 							<th>Prevents</th>
-							<th>Min. Age for Dose 1</th>
+							<th>Age for Dose 1</th>
 							<th>Interval Between Dose 1 and Dose 2</th>
 							<th>Interval Between Dose 2 and Dose 3</th>
 							<th>Interval Between Dose 3 and Dose 4</th>
@@ -153,6 +131,7 @@
 
 					</tbody>
 				</table>
+				</div>
 					<%
 				}
 					
@@ -160,8 +139,8 @@
 				{
 					LocalDate dt = new LocalDate(request.getAttribute("dob"));
 					%>
-					
-					<table class="table table-striped table-bordered primary table-hover">
+					<div id="table_wrapper">
+					<table class="table table-striped table-bordered primary table-hover footable" id="list">
 					
 					<col >
 					<col style="color:#0088cc">
@@ -172,7 +151,7 @@
 							<th width="5%">S.no</th>
 							<th width="10%">Vaccine</th>
 							<th width="20%">Prevents</th>
-							<th width="13%">Min. Age for Dose 1</th>
+							<th width="13%">Age for Dose 1</th>
 							<th width="13%">Age for Dose 2</th>
 							<th width="13%">Age for Dose 3</th>
 							<th width="13%">Age for Dose 4</th>
@@ -282,59 +261,33 @@
 
 					</tbody>
 				</table>
-					<%
-				}
-					%>
-				
-				
-				
-							</div>
-			<div class="col-md-4">
-				<h4 class="heading-primary text-uppercase mb-md">Enter Details</h4>
-				<h5>To customize this chart according to dates.</h5>
-				<form action="/scheduler_servlet" id="frmSignUp" method="post">
-					<div class="row">
+				</div>
+				<% } %>
+<input type="button" id="btnExport" value="Excel" required class="btn btn-primary mb-xl" data-loading-text="Loading...">				
+<input type="button" value="Save as PDF" required class="btn btn-primary mb-xl" data-loading-text="Loading..." onclick="print_onclick()">
+<input type="button" value="Print" required class="btn btn-primary mb-xl" data-loading-text="Loading..." onclick="print_onclick()">
+</div>	
+<script>
+$(document).ready(function() {
+	  $("#btnExport").click(function(e) {
+	    e.preventDefault();
 
-						<div class="form-group">
-							<div class="col-md-12">
-								<label>Child's Name</label>
-								<input type="text" name="name" value="" class="form-control input-lg">
-							</div>
-						</div>
+	    //getting data from our table
+	    var data_type = 'data:application/vnd.ms-excel';
+	    var table_div = document.getElementById('table_wrapper');
+	    var table_html = table_div.outerHTML.replace(/ /g, '%20');
 
-						<div class="form-group">
-							<div class="col-md-12">
-								<label>Date of Birth*</label>
-								<input type="date" name="dob" value="" class="form-control input-lg">
-							</div>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-md-12">
-							<input type="submit" value="Submit" required class="btn btn-primary pull-right mb-xl" data-loading-text="Loading...">
-    						<input type="submit" value="Download Formats" required class="btn btn-primary pull-right mb-xl" data-loading-text="Loading..." onclick="form.action='savePDF';">
-						</div>
-					</div>
-				</form>
-				
-			</div>
-			
-		</div>
-		
-		
-
-		<div class="row">
-			<div class="col-md-12">
-				<hr class="tall">
-			</div>
-		</div>
+	    var a = document.createElement('a');
+	    a.href = data_type + ', ' + table_html;
+	    a.download = 'exported_table_' + Math.floor((Math.random() * 9999999) + 1000000) + '.xls';
+	    a.click();
+	  });
+	});
 	
-
-	</div>
-</div>
-
-
-<%@ include file="footer.jsp"%>
-</div>
-<%@ include file="scripts.jsp"%>
+function print_onclick() {
+    window.print();
+    return false;
+}
+</script>
+</body>
+</html>

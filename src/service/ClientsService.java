@@ -12,7 +12,7 @@ public class ClientsService {
 	}
 
 	public void registerUser(String fname, String lname, String email, String pass, String contact) {
-		Clients user = new Clients(fname, lname, email, pass, contact);
+		Clients user = new Clients(email, fname, lname, pass, contact);
 		clientsDao.save(user);
 	}
 }

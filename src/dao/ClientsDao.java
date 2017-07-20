@@ -22,4 +22,11 @@ public class ClientsDao {
 				return true;
 		}
 
+		public boolean val(String email, String pass) {
+			Clients user = ofy().load().type(Clients.class).id(email).now();
+			if ((user.pass).equals(pass))
+				return true;
+			else
+				return false;
+		}
 	}

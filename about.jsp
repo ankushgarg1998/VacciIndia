@@ -1,5 +1,9 @@
 <%@ include file = "header1.jsp" %>
 		<title>About Us | VacciIndia</title>
+		<style type="text/css" media="print">
+  @page { size: landscape; }
+</style>
+		
 <%@ include file = "header2.jsp" %>
 
 
@@ -18,7 +22,6 @@
 					</div>
 				</div>
 			</section>
-
 
 				<div class="container">
 

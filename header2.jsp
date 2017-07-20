@@ -159,7 +159,7 @@
 																						<div class="form-group">
 																							<div class="col-md-12 p-none">
 																								<label>Username or E-mail Address</label>
-																								<input type="text" value="" class="form-control input-lg" tabindex="1">
+																								<input type="text" name="uname" value="" class="form-control input-lg" tabindex="1">
 																							</div>
 																						</div>
 																					</div>
@@ -168,7 +168,7 @@
 																							<div class="col-md-12 p-none">
 																								<a class="pull-right mt-none p-none" id="headerRecover" href="#">(Lost Password?)</a>
 																								<label>Password</label>
-																								<input type="password" value="" class="form-control input-lg" tabindex="2">
+																								<input type="password" name="upass" value="" class="form-control input-lg" tabindex="2">
 																							</div>
 																						</div>
 																					</div>
