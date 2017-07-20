@@ -15,6 +15,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 
 	<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>controller.ClientsController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
 		<servlet-name>indexed</servlet-name>
 		<jsp-file>home.jsp</jsp-file>
 	</servlet>

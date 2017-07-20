@@ -67,36 +67,36 @@
 										<div class="featured-box featured-box-primary align-left mt-xlg">
 											<div class="box-content">
 												<h4 class="heading-primary text-uppercase mb-md">Register An Account</h4>
-												<form action="/" id="frmSignUp" method="post">
+												<form action="/register" id="frmSignUp" method="post">
 													<div class="row">
 														<div class="form-group">
-															<div class="col-md-12">
-																<label>Child's Name</label>
-																<input type="text" value="" class="form-control input-lg">
+															<div class="col-md-6">
+																<label>First Name (Parent)*</label>
+																<input type="text" name="fname" value="" class="form-control input-lg" required>
+															</div>
+															<div class="col-md-6">
+																<label>Last Name *</label>
+																<input type="text" name="lname" value="" class="form-control input-lg" required>
 															</div>
 														</div>
 														<div class="form-group">
 															<div class="col-md-12">
-																<label>E-mail Address</label>
-																<input type="text" value="" class="form-control input-lg">
+																<label>E-Mail address</label>
+																<input type="email" name="email" value="" class="form-control input-lg">
+																</div>
 															</div>
-														</div>
 														<div class="form-group">
 															<div class="col-md-12">
-																<label>Date of Birth</label>
-																<input type="date" value="" class="form-control input-lg">
+																<label>Password</label>
+																<input type="password" name="pass" value="" class="form-control input-lg">
 															</div>
 														</div>
 													</div>
 													<div class="row">
 														<div class="form-group">
-															<div class="col-md-6">
-																<label>Password</label>
-																<input type="password" value="" class="form-control input-lg">
-															</div>
-															<div class="col-md-6">
-																<label>Re-enter Password</label>
-																<input type="password" value="" class="form-control input-lg">
+															<div class="col-md-12">
+																<label>Contact No.</label>
+																<input type="text" name="contact" value="" class="form-control input-lg">
 															</div>
 														</div>
 													</div>

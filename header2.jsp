@@ -142,7 +142,7 @@
                       </li>
 											<li class="dropdown dropdown-mega dropdown-mega-signin signin" id="headerAccount">
 														<a class="dropdown-toggle" href="sign">
-															<i class="fa fa-user"></i> Sign In
+															<i class="fa fa-user"></i> Sign In/Up
 														</a>
 														<ul class="dropdown-menu">
 															<li>
@@ -197,11 +197,11 @@
 														<div class="form-group">
 															<div class="col-md-6">
 																<label>First Name (Parent)*</label>
-																<input type="text" value="" data-msg-required="Please enter your first name." maxlength="100" class="form-control" name="name" id="name" required>
+																<input type="text" name="fname" value="" data-msg-required="Please enter your first name." maxlength="100" class="form-control" name="name" id="name" required>
 															</div>
 															<div class="col-md-6">
 																<label>Last Name *</label>
-																<input type="text" value="" data-msg-required="Please enter your last name." maxlength="100" class="form-control" name="name" id="name" required>
+																<input type="text" name="lname" value="" data-msg-required="Please enter your last name." maxlength="100" class="form-control" name="name" id="name" required>
 															</div>
 
 
@@ -213,7 +213,7 @@
 															<div class="form-group">
 																<div class="col-md-12">
 																	<label>Parent's email address *</label>
-																	<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
+																	<input type="email" name="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
 																</div>
 															</div>
 
@@ -223,7 +223,7 @@
 															<div class="form-group">
 																<div class="col-md-12">
 																	<label>Password *</label>
-																	<input type="password" value="" data-msg-required="Please enter your email address." data-msg-email="Password only consists of (A-Z),(a-z) and (0-9)" maxlength="100" class="form-control" name="password" id="password" required>
+																	<input type="password" name="pass" value="" data-msg-required="Please enter your email address." data-msg-email="Password only consists of (A-Z),(a-z) and (0-9)" maxlength="100" class="form-control" name="password" id="password" required>
 																</div>
 															</div>
 
@@ -234,7 +234,7 @@
 														<div class="form-group">
 															<div class="col-md-12">
 																<label>Contact Number *</label>
-																<input type="text" value="" data-msg-required="Please enter the mobile number." maxlength="100" class="form-control" name="mob" id="mob" required>
+																<input type="text" name="contact" value="" data-msg-required="Please enter the mobile number." maxlength="100" class="form-control" name="mob" id="mob" required>
 															</div>
 														</div>
 													</div>
