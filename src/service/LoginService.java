@@ -1,7 +1,6 @@
 package service;
 
 import dao.ClientsDao;
-import entity.Clients;
 
 
 public class LoginService {
@@ -9,5 +8,9 @@ public class LoginService {
 
 	public boolean validate(String email, String pass) {
 		return clientsDao.val(email, pass);
+	}
+	
+	public String getName(String email) {
+		return clientsDao.name(email);
 	}
 }

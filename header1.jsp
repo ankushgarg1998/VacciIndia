@@ -1,4 +1,5 @@
-<%@ page import="org.joda.time.LocalDate" %>
+<%@ page import="org.joda.time.LocalDate" session="false"%>
+
 <!DOCTYPE html>
 <html>
 	<head>

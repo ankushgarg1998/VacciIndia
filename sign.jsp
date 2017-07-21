@@ -34,7 +34,7 @@
 														<div class="form-group">
 															<div class="col-md-12">
 																<label>Username or E-mail Address</label>
-																<input type="text" name="uname" value="" class="form-control input-lg">
+																<input type="text" name="uname" value="" class="form-control input-lg" required>
 															</div>
 														</div>
 													</div>
@@ -43,7 +43,7 @@
 															<div class="col-md-12">
 																<a class="pull-right" href="#">(Lost Password?)</a>
 																<label>Password</label>
-																<input type="password" name="upass" value="" class="form-control input-lg">
+																<input type="password" name="upass" value="" class="form-control input-lg" required>
 															</div>
 														</div>
 													</div>

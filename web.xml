@@ -31,7 +31,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/savePDF</url-pattern>
 	</servlet-mapping>
 
-
+	<servlet>
+		<servlet-name>Addchild</servlet-name>
+		<servlet-class>controller.AddchildController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Addchild</servlet-name>
+		<url-pattern>/addchild</url-pattern>
+	</servlet-mapping>
 
 	<servlet>
 		<servlet-name>Register</servlet-name>
@@ -52,6 +59,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 
 	<servlet>
+		<servlet-name>signout</servlet-name>
+		<servlet-class>controller.LogoutController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>signout</servlet-name>
+		<url-pattern>/signout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
 		<servlet-name>indexed</servlet-name>
 		<jsp-file>home.jsp</jsp-file>
 	</servlet>
@@ -60,6 +76,23 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/indexed</url-pattern>
 	</servlet-mapping>
 
+	<servlet>
+		<servlet-name>dashboard</servlet-name>
+		<jsp-file>dashboard.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>dashboard</servlet-name>
+		<url-pattern>/dashboard</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>addchildform</servlet-name>
+		<jsp-file>addchildform.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addchildform</servlet-name>
+		<url-pattern>/addchildform</url-pattern>
+	</servlet-mapping>
 
 	<servlet>
 		<servlet-name>vaccines</servlet-name>

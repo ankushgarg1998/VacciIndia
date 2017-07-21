@@ -24,9 +24,14 @@ public class ClientsDao {
 
 		public boolean val(String email, String pass) {
 			Clients user = ofy().load().type(Clients.class).id(email).now();
-			if ((user.pass).equals(pass))
+			if ((user.getPass()).equals(pass))
 				return true;
 			else
 				return false;
+		}
+		
+		public String name(String email) {
+			Clients user = ofy().load().type(Clients.class).id(email).now();
+			return user.getFname();
 		}
 	}

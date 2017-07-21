@@ -140,6 +140,10 @@
                           Contact
                         </a>
                       </li>
+                      <% 
+                      HttpSession sess = request.getSession(false);
+                      if(sess == null) { 
+                      %>
 											<li class="dropdown dropdown-mega dropdown-mega-signin signin" id="headerAccount">
 														<a class="dropdown-toggle" href="sign">
 															<i class="fa fa-user"></i> Sign In/Up
@@ -154,7 +158,7 @@
 
 																				<span class="dropdown-mega-sub-title">Sign In</span>
 
-																				<form action="/" id="frmSignIn" method="post">
+																				<form action="signin" id="frmSignIn" method="post">
 																					<div class="row">
 																						<div class="form-group">
 																							<div class="col-md-12 p-none">
@@ -287,6 +291,16 @@
 															</li>
 														</ul>
 													</li>
+										<%
+                      }
+                      else {
+										%>
+										<li class="dropdown-full-color dropdown-secondary">
+                        <a href="signout">
+                          Logout
+                        </a>
+                      </li>
+										<%} %>
                     </ul>
                   </nav>
                 </div>

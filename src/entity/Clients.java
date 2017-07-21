@@ -12,10 +12,10 @@ public class Clients {
 	String fname;
 	@Index
 	String lname;
-	public String pass;
+	String pass;
 	String contact;
+	
 	public Clients() {
-
 	}
 
 	public Clients(String email, String fname, String lname, String pass, String contact) {
