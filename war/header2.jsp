@@ -56,6 +56,14 @@
         <div class="container">
           <nav class="header-nav-top pull-right">
             <ul class="nav nav-pills">
+            <% 
+                   HttpSession sess = request.getSession(false);
+                   if(sess != null) { 
+                   %>
+              <li class="hidden-xs">
+                <span class="ws-nowrap"></i> Welcome <%=sess.getAttribute("name") %></span>
+              </li>
+              <%} %>
               <li class="hidden-xs">
                 <span class="ws-nowrap"><i class="icon-location-pin icons"></i> MSIT, Janakpuri, New Delhi</span>
               </li>
@@ -141,7 +149,6 @@
                         </a>
                       </li>
                       <% 
-                      HttpSession sess = request.getSession(false);
                       if(sess == null) { 
                       %>
 											<li class="dropdown dropdown-mega dropdown-mega-signin signin" id="headerAccount">
@@ -162,8 +169,8 @@
 																					<div class="row">
 																						<div class="form-group">
 																							<div class="col-md-12 p-none">
-																								<label>Username or E-mail Address</label>
-																								<input type="text" name="uname" value="" class="form-control input-lg" tabindex="1">
+																								<label>E-mail Address</label>
+																								<input type="text" name="uname" value="" class="form-control input-lg" tabindex="1" required>
 																							</div>
 																						</div>
 																					</div>
@@ -172,7 +179,7 @@
 																							<div class="col-md-12 p-none">
 																								<a class="pull-right mt-none p-none" id="headerRecover" href="#">(Lost Password?)</a>
 																								<label>Password</label>
-																								<input type="password" name="upass" value="" class="form-control input-lg" tabindex="2">
+																								<input type="password" name="upass" value="" class="form-control input-lg" tabindex="2" required>
 																							</div>
 																						</div>
 																					</div>
@@ -271,7 +278,7 @@
 																						<div class="form-group">
 																							<div class="col-md-12 p-none">
 																								<label>E-mail Address</label>
-																								<input type="text" value="" class="form-control input-lg">
+																								<input type="text" value="" class="form-control input-lg" required>
 																							</div>
 																						</div>
 																					</div>
@@ -295,6 +302,11 @@
                       }
                       else {
 										%>
+										<li class="dropdown-full-color dropdown-secondary">
+                        <a href="dashboard">
+                          Dashboard
+                        </a>
+                      </li>
 										<li class="dropdown-full-color dropdown-secondary">
                         <a href="signout">
                           Logout

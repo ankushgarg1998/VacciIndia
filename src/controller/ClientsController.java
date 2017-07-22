@@ -5,6 +5,7 @@ import java.io.IOException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import service.ClientsService;
 
@@ -28,7 +29,17 @@ public class ClientsController extends HttpServlet {
 			System.out.println("User does not exists!!");
 			clientsService.registerUser(fname, lname, email, pass, contact);
 //			sendMainService.sendWelcomeMail(name, uID, pass);
-			resp.sendRedirect("dash");
+			
+			System.out.println("Logged In");
+			HttpSession sess = req.getSession();
+			sess.setAttribute("email", email);
+			sess.setAttribute("name", fname);
+			System.out.println(sess.getAttribute("name"));
+			sess.setMaxInactiveInterval(300);
+			System.out.println(sess.getId());
+			
+			resp.sendRedirect("dashboard");
+			
 		}
 	}
 }

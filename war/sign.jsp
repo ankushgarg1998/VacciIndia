@@ -33,7 +33,7 @@
 													<div class="row">
 														<div class="form-group">
 															<div class="col-md-12">
-																<label>Username or E-mail Address</label>
+																<label>E-mail Address</label>
 																<input type="text" name="uname" value="" class="form-control input-lg" required>
 															</div>
 														</div>
@@ -82,13 +82,13 @@
 														<div class="form-group">
 															<div class="col-md-12">
 																<label>E-Mail address</label>
-																<input type="email" name="email" value="" class="form-control input-lg">
+																<input type="email" name="email" value="" class="form-control input-lg" required>
 																</div>
 															</div>
 														<div class="form-group">
 															<div class="col-md-12">
 																<label>Password</label>
-																<input type="password" name="pass" value="" class="form-control input-lg">
+																<input type="password" name="pass" value="" class="form-control input-lg" required>
 															</div>
 														</div>
 													</div>
@@ -96,7 +96,7 @@
 														<div class="form-group">
 															<div class="col-md-12">
 																<label>Contact No.</label>
-																<input type="text" name="contact" value="" class="form-control input-lg">
+																<input type="text" name="contact" value="" class="form-control input-lg" required>
 															</div>
 														</div>
 													</div>

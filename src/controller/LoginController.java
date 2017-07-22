@@ -27,7 +27,7 @@ public class LoginController extends HttpServlet {
 			System.out.println(sess.getAttribute("name"));
 			sess.setMaxInactiveInterval(300);
 			System.out.println(sess.getId());
-			resp.sendRedirect("home");
+			resp.sendRedirect("dashboard");
 		}
 		else {
 			System.out.println("Incorrect Email or Password");

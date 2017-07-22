@@ -4,6 +4,17 @@ xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+
+<servlet>
+		<servlet-name>Addchild</servlet-name>
+		<servlet-class>controller.AddchildController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Addchild</servlet-name>
+		<url-pattern>/addchild</url-pattern>
+	</servlet-mapping>
+
+
 <servlet>
 		<servlet-name>Trial</servlet-name>
 		<servlet-class>pkg.TrialServlet</servlet-class>

@@ -397,8 +397,8 @@
 																<span class="day">15</span>
 																<span class="month">Jan</span>
 															</div>
-															<h4 class="heading-primary"><a href="blog-post.html">Modi Govt. pushes for vaccinated India</a></h4>
-															<p>BJP campigns on All India Radio, Television and News Papers for spreading awareness.<a href="/" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
+															<h4 class="heading-primary"><a href="#">Modi Govt. pushes for vaccinated India</a></h4>
+															<p>BJP campigns on All India Radio, Television and News Papers for spreading awareness.<a href="#" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
 														</article>
 													</div>
 													<div class="col-md-6">
@@ -407,8 +407,8 @@
 																<span class="day">15</span>
 																<span class="month">Jan</span>
 															</div>
-															<h4 class="heading-primary"><a href="blog-post.html">Every 1 in 10 infants were't vaccinated in 2016</a></h4>
-															<p>Reports state that lack of vaccination could be lethal.<a href="/" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
+															<h4 class="heading-primary"><a href="#">Every 1 in 10 infants were't vaccinated in 2016</a></h4>
+															<p>Reports state that lack of vaccination could be lethal.<a href="#" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
 														</article>
 													</div>
 												</div>
@@ -419,8 +419,8 @@
 																<span class="day">12</span>
 																<span class="month">Jan</span>
 															</div>
-															<h4 class="heading-primary"><a href="blog-post.html">Needle free patch makes vaccination easy.</a></h4>
-															<p>To make vaccines more accessible and tranportable and to be delivered in Vans.<a href="/" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
+															<h4 class="heading-primary"><a href="#">Needle free patch makes vaccination easy.</a></h4>
+															<p>To make vaccines more accessible and tranportable and to be delivered in Vans.<a href="#" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
 														</article>
 													</div>
 													<div class="col-md-6">
@@ -429,8 +429,8 @@
 																<span class="day">11</span>
 																<span class="month">Jan</span>
 															</div>
-															<h4 class="heading-primary"><a href="blog-post.html">Delhi Govt. to add more Vaccine Clinics.</a></h4>
-															<p>In the last few months it has added 20 such centers in the state.<a href="/" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
+															<h4 class="heading-primary"><a href="#">Delhi Govt. to add more Vaccine Clinics.</a></h4>
+															<p>In the last few months it has added 20 such centers in the state.<a href="#" class="read-more">read more <i class="fa fa-angle-right"></i></a></p>
 														</article>
 													</div>
 												</div>
@@ -454,7 +454,7 @@
 															<div class="testimonial-author-thumbnail img-thumbnail">
 																<img src="images/fd.jpg" alt="">
 															</div>
-															<p><span style="font-size:18px;">Aryn Michaels</span><span>CEO & Founder - Okler</span></p>
+															<p><span style="font-size:18px;">Aryn Michaels</span><span>CEO & Founder - Okler Medical Care</span></p>
 														</div>
 													</div>
 												</div>

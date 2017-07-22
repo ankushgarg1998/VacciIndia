@@ -32,15 +32,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 
 	<servlet>
-		<servlet-name>Addchild</servlet-name>
-		<servlet-class>controller.AddchildController</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>Addchild</servlet-name>
-		<url-pattern>/addchild</url-pattern>
-	</servlet-mapping>
-
-	<servlet>
 		<servlet-name>Register</servlet-name>
 		<servlet-class>controller.ClientsController</servlet-class>
 	</servlet>
@@ -278,6 +269,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 
 	<welcome-file-list>
-		<welcome-file>index.html</welcome-file>
+		<welcome-file>indexed.jsp</welcome-file>
 	</welcome-file-list>
 </web-app>
