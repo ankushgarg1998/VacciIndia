@@ -41,6 +41,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 
 	<servlet>
+		<servlet-name>Addchild</servlet-name>
+		<servlet-class>controller.ChildController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Addchild</servlet-name>
+		<url-pattern>/addchild</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
 		<servlet-name>signin</servlet-name>
 		<servlet-class>controller.LoginController</servlet-class>
 	</servlet>
@@ -60,7 +69,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>indexed</servlet-name>
-		<jsp-file>home.jsp</jsp-file>
+		<jsp-file>/home.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>indexed</servlet-name>
@@ -69,7 +78,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>dashboard</servlet-name>
-		<jsp-file>dashboard.jsp</jsp-file>
+		<jsp-file>/dashboard.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>dashboard</servlet-name>
@@ -78,7 +87,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>addchildform</servlet-name>
-		<jsp-file>addchildform.jsp</jsp-file>
+		<jsp-file>/addchildform.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>addchildform</servlet-name>
@@ -87,7 +96,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>vaccines</servlet-name>
-		<jsp-file>vaccines.jsp</jsp-file>
+		<jsp-file>/vaccines.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>vaccines</servlet-name>
@@ -97,7 +106,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>vaccine-bcg</servlet-name>
-		<jsp-file>vaccine-bcg.jsp</jsp-file>
+		<jsp-file>/vaccine-bcg.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>vaccine-bcg</servlet-name>
@@ -106,7 +115,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>vaccine-dtp</servlet-name>
-		<jsp-file>vaccine-dtp.jsp</jsp-file>
+		<jsp-file>/vaccine-dtp.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>vaccine-dtp</servlet-name>
@@ -115,7 +124,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>vaccine-hepb</servlet-name>
-		<jsp-file>vaccine-hepb.jsp</jsp-file>
+		<jsp-file>/vaccine-hepb.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>vaccine-hepb</servlet-name>
@@ -124,7 +133,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>vaccine-hib</servlet-name>
-		<jsp-file>vaccine-hib.jsp</jsp-file>
+		<jsp-file>/vaccine-hib.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>vaccine-hib</servlet-name>
@@ -133,7 +142,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>vaccine-hpv</servlet-name>
-		<jsp-file>vaccine-hpv.jsp</jsp-file>
+		<jsp-file>/vaccine-hpv.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>vaccine-hpv</servlet-name>
@@ -142,7 +151,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>vaccine-mmr</servlet-name>
-		<jsp-file>vaccine-mmr.jsp</jsp-file>
+		<jsp-file>/vaccine-mmr.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>vaccine-mmr</servlet-name>
@@ -151,7 +160,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>vaccine-pneum</servlet-name>
-		<jsp-file>vaccine-pneum.jsp</jsp-file>
+		<jsp-file>/vaccine-pneum.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>vaccine-pneum</servlet-name>
@@ -160,7 +169,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>vaccine-polio</servlet-name>
-		<jsp-file>vaccine-polio.jsp</jsp-file>
+		<jsp-file>/vaccine-polio.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>vaccine-polio</servlet-name>
@@ -169,7 +178,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>vaccine-rota</servlet-name>
-		<jsp-file>vaccine-rota.jsp</jsp-file>
+		<jsp-file>/vaccine-rota.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>vaccine-rota</servlet-name>
@@ -179,7 +188,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>home</servlet-name>
-		<jsp-file>indexed.jsp</jsp-file>
+		<jsp-file>/indexed.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>home</servlet-name>
@@ -188,7 +197,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>about</servlet-name>
-		<jsp-file>about.jsp</jsp-file>
+		<jsp-file>/about.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>about</servlet-name>
@@ -197,7 +206,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>scheduler</servlet-name>
-		<jsp-file>scheduler.jsp</jsp-file>
+		<jsp-file>/scheduler.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>scheduler</servlet-name>
@@ -206,7 +215,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>vaccilocator</servlet-name>
-		<jsp-file>vaccilocator.jsp</jsp-file>
+		<jsp-file>/vaccilocator.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>vaccilocator</servlet-name>
@@ -215,7 +224,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>pdlocator</servlet-name>
-		<jsp-file>pdlocator.jsp</jsp-file>
+		<jsp-file>/pdlocator.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>pdlocator</servlet-name>
@@ -224,7 +233,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>vacciathome</servlet-name>
-		<jsp-file>vacciathome.jsp</jsp-file>
+		<jsp-file>/vacciathome.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>vacciathome</servlet-name>
@@ -233,7 +242,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>faq</servlet-name>
-		<jsp-file>faq.jsp</jsp-file>
+		<jsp-file>/faq.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>faq</servlet-name>
@@ -242,7 +251,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>contact</servlet-name>
-		<jsp-file>contact.jsp</jsp-file>
+		<jsp-file>/contact.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>contact</servlet-name>
@@ -251,7 +260,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>sign</servlet-name>
-		<jsp-file>sign.jsp</jsp-file>
+		<jsp-file>/sign.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>sign</servlet-name>
@@ -260,7 +269,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>err</servlet-name>
-		<jsp-file>err.jsp</jsp-file>
+		<jsp-file>/err.jsp</jsp-file>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>err</servlet-name>

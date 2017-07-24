@@ -313,7 +313,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<input type="submit" value="Submit" required class="btn btn-primary pull-right mb-xl" data-loading-text="Loading...">
-    						<input type="submit" value="Download Formats" required class="btn btn-primary pull-right mb-xl" data-loading-text="Loading..." onclick="form.action='savePDF';">
+    						<input type="submit" value="Download Formats" required class="btn btn-primary pull-right mb-xl" data-loading-text="Loading..." onclick="form.action='/savePDF';">
 						</div>
 					</div>
 				</form>
