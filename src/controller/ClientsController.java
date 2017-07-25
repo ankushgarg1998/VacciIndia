@@ -8,13 +8,14 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import service.ClientsService;
+import service.SendMailService;
 
 @SuppressWarnings("serial")
 public class ClientsController extends HttpServlet {
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 
 		ClientsService clientsService = new ClientsService();
-//		SendMailService sendMainService = new SendMailService();
+		SendMailService sendMailService = new SendMailService();
 
 		String fname = req.getParameter("fname");
 		String lname = req.getParameter("lname");
@@ -28,7 +29,6 @@ public class ClientsController extends HttpServlet {
 		else {
 			System.out.println("User does not exists!!");
 			clientsService.registerUser(fname, lname, email, pass, contact);
-//			sendMainService.sendWelcomeMail(name, uID, pass);
 			
 			System.out.println("Logged In");
 			HttpSession sess = req.getSession();
@@ -38,6 +38,8 @@ public class ClientsController extends HttpServlet {
 			sess.setMaxInactiveInterval(300);
 			System.out.println(sess.getId());
 			
+			sendMailService.sendRegistrationMail(fname, lname, email, pass, contact);
+			System.out.println("Welcome Mail sent to" + email);
 			resp.sendRedirect("dashboard");
 			
 		}

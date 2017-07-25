@@ -10,12 +10,14 @@ import javax.servlet.http.HttpSession;
 import org.joda.time.LocalDate;
 
 import service.ChildService;
+import service.SendMailService;
 
 @SuppressWarnings("serial")
 public class ChildController extends HttpServlet {
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 
 		ChildService childService = new ChildService();
+		SendMailService sendMailService = new SendMailService();
 		HttpSession sess = req.getSession(false);
 
 		String fname = req.getParameter("fname");
@@ -25,12 +27,14 @@ public class ChildController extends HttpServlet {
 		LocalDate dob = new LocalDate(req.getParameter("dob"));
 
 		childService.registerKid(fname, lname, gender, email, dob);
-		// sendMainService.sendWelcomeMail(name, uID, pass);
+		System.out.println("Child Added");
 
 		// Integer i = sess.getAttribute("noc");
 		// sess.setAttribute("noc", i+1);
 		// System.out.println(sess.getAttribute("noc"));
-		System.out.println("Child Added");
+		
+		sendMailService.sendChildMail(fname, lname, gender, email, dob);
+		System.out.println("Child Mail sent to" + email);
 		resp.sendRedirect("dashboard");
 		}
 	}

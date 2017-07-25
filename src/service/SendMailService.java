@@ -1,6 +1,6 @@
 package service;
 
-import java.io.UnsupportedEncodingException;
+import java.io.IOException;
 import java.util.Properties;
 
 import javax.mail.Message;
@@ -11,42 +11,49 @@ import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
+import org.joda.time.LocalDate;
+
 public class SendMailService {
 
-	String mail_from_id = "ashish@osahub.com";
-	String mail_from_name = "OSAHUB Technologies";
-
-	public void sendWelcomeMail(String mail_to_name, String mail_to_id, String pass) {
-
-		String msgBody = "Hello " + mail_to_name
-				+ ".\nYou are successfully register on The Vacci India.\n\nThe Details Given are:\n\nEmail: "
-				+ mail_to_id + "\nPassword: " + pass + ".";
-
-		SendMail(msgBody, mail_to_id, mail_to_name);
-	}
-
-	private void SendMail(String msgBody, String mail_to_id, String mail_to_name) {
+	private static String fromAddress = "vacciindia@gmail.com";
+	
+	public void send(String toAddress, String subject, String msgBody) throws IOException {
 
 		Properties props = new Properties();
 		Session session = Session.getDefaultInstance(props, null);
 
 		try {
-
 			Message msg = new MimeMessage(session);
-			msg.setFrom(new InternetAddress(mail_from_id, mail_from_name));
-			msg.addRecipient(Message.RecipientType.TO, new InternetAddress(mail_to_id, mail_to_name));
-			msg.setSubject("Registration Successful");
+			msg.setFrom(new InternetAddress(fromAddress));
+			InternetAddress to = new InternetAddress(toAddress);
+			msg.addRecipient(Message.RecipientType.TO, to);
+			msg.setSubject(subject);
 			msg.setText(msgBody);
 			Transport.send(msg);
 
-		} catch (AddressException e) {
-			e.printStackTrace();
-		} catch (MessagingException e) {
-			e.printStackTrace();
-		} catch (UnsupportedEncodingException e) {
-			e.printStackTrace();
+		} catch (AddressException addressException) {
+			// log.log(Level.SEVERE, "Address Exception , mail could not be
+			// sent", addressException);
+		} catch (MessagingException messageException) {
+			// log.log(Level.SEVERE, "Messaging Exception , mail could not be
+			// sent", messageException);
 		}
-
 	}
+	
+	
+	public void sendRegistrationMail(String fname, String lname, String email, String pass, String contact) throws IOException{
+		String msgBody = "Hello " + fname + " " + lname
+				+ ".\nYou are successfully registered on Vacci India.\n\nYour Details are:\nEmail: "
+				+ email + "\nPassword: " + pass + "\nContact No: " + contact + "\n\nYou will be receiving on-time Vaccination Reminders as soon as you add your child's details to your ID.\n\n\nRegards\nVacciIndia\n(+91)7838765583";
 
+		send(email, "Welcome to VacciIndia", msgBody);
+	}
+	
+	public void sendChildMail(String fname, String lname, String gender, String email, LocalDate dob) throws IOException{
+		String msgBody = "Hello Parent,\n Your little one, " + fname + " " + lname
+				+ "has been successfully added with Date of Birth as : " + dob + ". You will be receiving on-time Vaccination Reminders.\n\n\nRegards\nVacciIndia\n(+91)7838765583";
+
+		send(email, "Child Registered to VacciIndia", msgBody);
+	}
+	
 }
