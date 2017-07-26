@@ -16,7 +16,7 @@ import org.joda.time.LocalDate;
 public class SendMailService {
 
 	private static String fromAddress = "vacciindia@gmail.com";
-	
+
 	public void send(String toAddress, String subject, String msgBody) throws IOException {
 
 		Properties props = new Properties();
@@ -31,16 +31,14 @@ public class SendMailService {
 			msg.setText(msgBody);
 			Transport.send(msg);
 
-		} catch (AddressException addressException) {
-			// log.log(Level.SEVERE, "Address Exception , mail could not be
-			// sent", addressException);
-		} catch (MessagingException messageException) {
-			// log.log(Level.SEVERE, "Messaging Exception , mail could not be
-			// sent", messageException);
+		} catch (AddressException e) {
+			e.printStackTrace();
+		} catch (MessagingException e) {
+			e.printStackTrace();
 		}
 	}
-	
-	
+
+
 	public void sendRegistrationMail(String fname, String lname, String email, String pass, String contact) throws IOException{
 		String msgBody = "Hello " + fname + " " + lname
 				+ ".\nYou are successfully registered on Vacci India.\n\nYour Details are:\nEmail: "
@@ -48,12 +46,12 @@ public class SendMailService {
 
 		send(email, "Welcome to VacciIndia", msgBody);
 	}
-	
+
 	public void sendChildMail(String fname, String lname, String gender, String email, LocalDate dob) throws IOException{
 		String msgBody = "Hello Parent,\n Your little one, " + fname + " " + lname
 				+ "has been successfully added with Date of Birth as : " + dob + ". You will be receiving on-time Vaccination Reminders.\n\n\nRegards\nVacciIndia\n(+91)7838765583";
 
 		send(email, "Child Registered to VacciIndia", msgBody);
 	}
-	
+
 }

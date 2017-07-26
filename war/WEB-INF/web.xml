@@ -14,6 +14,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 
 <servlet>
+		<servlet-name>SendReminder</servlet-name>
+		<servlet-class>controller.ReminderController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SendReminder</servlet-name>
+		<url-pattern>/sendReminder</url-pattern>
+	</servlet-mapping>
+
+<servlet>
 		<servlet-name>scheduler_servlet</servlet-name>
 		<servlet-class>pkg.SchedulerServlet</servlet-class>
 	</servlet>

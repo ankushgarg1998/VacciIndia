@@ -3,7 +3,7 @@
 		<style type="text/css" media="print">
   @page { size: landscape; }
 </style>
-		
+
 <%@ include file = "header2.jsp" %>
 
 
@@ -162,7 +162,7 @@
 									<div class="featured-box">
 										<div class="box-content">
 											<h4 class="heading-primary"><strong>Ayush Poddar</strong></h4><br>
-											<p>Professional Self Photographer.Claims to be a poet. Likes to be called Mr. Magnificient for obvious reasons.</p>
+											<p>Professional Self Photographer.Claims to be a poet. Likes to be called Mr. Magnificient for obvious reasons. I mean look at him. He ain't nothin' less than Zack Efron. Baaki bhaijaan bura bhot jaldi maan jaate hain, aur fir kisi ko batate bhi ni ki vo bura maan gye hain.</p>
 										</div>
 									</div>
 								</li>
@@ -174,6 +174,17 @@
 										<div class="box-content">
 											<h4 class="heading-primary"><strong>Shivam Mehta</strong></h4><br>
 											<p>The troubled guy in our team who’s computer undergoes mood swings and mostly just refuses to work. This guy has it hard and if windows were a game his difficulty level is like legendary still gets to be the admin of all Whatapp groups. (coincidence, I think not!) Chacha vidhayak hai humare.</p>
+										</div>
+									</div>
+								</li>
+								<li class="appear-animation" data-appear-animation="fadeInUp">
+									<div class="thumb">
+										<img src="images/paras.jpg" alt="" />
+									</div>
+									<div class="featured-box">
+										<div class="box-content">
+											<h4 class="heading-primary"><strong>Paras Dua</strong></h4><br>
+											<p>Super senior of our team, the only guy in our team who has classy  beard .Bhai jabra foodie hain, if you wanna know how to get cashback at diffrent food spots he is wikipedia of it. </p>
 										</div>
 									</div>
 								</li>

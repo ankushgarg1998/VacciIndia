@@ -33,7 +33,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-8">
-								<h3>Pediatricians Near your Area</h3>
+								<h3>Vaccination Locations Near your Area</h3>
 								<div id="map"></div>
 							</div>
 							<%-- <div class="col-md-1"></div> --%>
@@ -45,7 +45,7 @@
 
 										<div class="form-group">
 											<div class="col-md-12">
-												<input type="button" value="Choose Automatically" class="btn btn-block btn-primary">
+												<input type="button" onclick="getLocation()" value="Current Location" class="btn btn-block btn-primary">
 											</div>
 										</div>
 										<h5 style="text-align:center;">OR</h5>
@@ -75,23 +75,70 @@
 				</div>
 			</div>
 
+		<script>
+  var map;
+      var infowindow1,pos,infoWindow;
+  function initMap() {
+				map1 = new google.maps.Map(document.getElementById('map'), {
+			          center: {lat: 28.62, lng: 77.20} ,
+			          zoom: 15
+			        });
+		}
+function getLocation()
+{
+	if (navigator.geolocation) {
+  	navigator.geolocation.getCurrentPosition(success, error);
+	} else {
+		infoWindow.setPosition(pos);
+		infoWindow.setContent(browserHasGeolocation ?
+													'Error: The Geolocation service failed.' :
+													'Error: Your browser doesn\'t support geolocation.');
+		infoWindow.open(map);
+	}
+	function success(position) {
+		var pos = {
+  	            lat: position.coords.latitude,
+        	      lng: position.coords.longitude
+    };
+	map = new google.maps.Map(document.getElementById('map'), {
+          center:pos ,
+          zoom: 15
+        });
+        infowindow1 = new google.maps.InfoWindow();
+        var service = new google.maps.places.PlacesService(map);
+        service.nearbySearch({
+          location:pos,
+          radius: 7000,
+          type: ['hospital']
+        }, callback);
+      }
+      function callback(results, status, pagination) {
+        if (status == google.maps.places.PlacesServiceStatus.OK) {
+          for (var i = 0; i < results.length; i++) {
+            createMarker(results[i]);
+          }
+					if(pagination.hasNextPage)
+						pagination.nextPage();
+        }
+      }
+      function createMarker(place) {
+        var placeLoc = place.geometry.location;
+        var marker = new google.maps.Marker({
+          map: map,
+          position: place.geometry.location
+        });
+        google.maps.event.addListener(marker, 'click', function() {
+          infowindow1.setContent(place.name);
+          infowindow1.open(map, this);
+        });
+	}
+	function error(msg) {
+  	alert('error: ' + msg);
+	}
+}
+</script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtOfDA0TKQPSlLcdzWOmblPXIdgnrjqTM&libraries=places&callback=initMap" async defer></script>
 
-			<script>
-				function initMap() {
-					var uluru = {lat: 28.621175, lng: 77.092686};
-					var map = new google.maps.Map(document.getElementById('map'), {
-						zoom: 15,
-						center: uluru
-					});
-					var marker = new google.maps.Marker({
-						position: uluru,
-						map: map
-					});
-				}
-			</script>
-			<script async defer
-			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYi6ChCG9E7HDpeO0fyUfSZ635t7FquUE&callback=initMap">
-			</script>
 
 
 <%@ include file = "footer.jsp" %>
