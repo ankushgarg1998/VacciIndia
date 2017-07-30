@@ -11,7 +11,6 @@ import javax.mail.internet.AddressException;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import entity.Child;
-import entity.ChildEntity;
 
 import org.joda.time.LocalDate;
 import org.joda.time.Weeks;
