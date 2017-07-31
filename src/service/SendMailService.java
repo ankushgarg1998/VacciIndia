@@ -49,7 +49,7 @@ public class SendMailService {
 
 	public void sendChildMail(String fname, String lname, String gender, String email, LocalDate dob) throws IOException{
 		String msgBody = "Hello Parent,\n Your little one, " + fname + " " + lname
-				+ "has been successfully added with Date of Birth as : " + dob + ". You will be receiving on-time Vaccination Reminders.\n\n\nRegards\nVacciIndia\n(+91)7838765583";
+				+ "has been successfully added with Date of Birth as : " + dob.toString() + ". You will be receiving on-time Vaccination Reminders.\n\n\nRegards\nVacciIndia\n(+91)7838765583";
 
 		send(email, "Child Registered to VacciIndia", msgBody);
 	}

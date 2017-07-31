@@ -1,7 +1,5 @@
 package entity;
 
-import org.joda.time.LocalDate;
-
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
 import com.googlecode.objectify.annotation.Index;
@@ -16,12 +14,12 @@ public class Child {
 	String lname;
 	String gender;
 	String email;
-	LocalDate dob;
+	String dob;
 
 	public Child() {
 	}
 
-	public Child(String fname, String lname, String gender, String email, LocalDate dob) {
+	public Child(String fname, String lname, String gender, String email, String dob) {
 		super();
 		this.fname = fname;
 		this.lname = lname;
@@ -70,11 +68,11 @@ public class Child {
 		this.email = email;
 	}
 	
-	public LocalDate getDob(){
+	public String getDob(){
 		return dob;
 	}
 	
-	public void setDob(LocalDate dob){
+	public void setDob(String dob){
 		this.dob = dob;
 	}
 

@@ -25,8 +25,9 @@ public class ChildController extends HttpServlet {
 		String gender = req.getParameter("gender");
 		String email = (String) sess.getAttribute("email");
 		LocalDate dob = new LocalDate(req.getParameter("dob"));
-
-		childService.registerKid(fname, lname, gender, email, dob);
+		System.out.println(dob);
+		
+		childService.registerKid(fname, lname, gender, email, dob.toString());
 		System.out.println("Child Added");
 
 		// Integer i = sess.getAttribute("noc");
