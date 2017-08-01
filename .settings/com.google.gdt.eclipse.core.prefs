@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
-jarsExcludedFromWebInfLib=F\:/java programs/Trial/war/WEB-INF/lib/guava-16.0.1.jar|F\:/java programs/Trial/war/WEB-INF/lib/joda-time-2.9.9 (1).jar|F\:/java programs/Trial/war/WEB-INF/lib/objectify-5.0.3.jar
+jarsExcludedFromWebInfLib=F\:/java programs/Trial/war/WEB-INF/lib/guava-16.0.1.jar|F\:/java programs/Trial/war/WEB-INF/lib/objectify-5.0.3.jar|F\:/java programs/Trial/war/WEB-INF/lib/joda-time-2.4.jar
 warSrcDir=war
 warSrcDirIsOutput=true

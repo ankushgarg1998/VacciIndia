@@ -1,2 +1,0 @@
-# osahub-project
-Vaccination
