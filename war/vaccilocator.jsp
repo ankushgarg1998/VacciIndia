@@ -1,6 +1,6 @@
 <%@ include file = "header1.jsp" %>
 		<title>VacciLocator | VacciIndia</title>
-		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
 		<style>
 			 #map {
 				height: 400px;
@@ -16,7 +16,7 @@
 							<div class="col-md-12">
 								<h1 class="mt-xs">Vacci Locator <span>To find nearby hospitals which provide vaccinations</span></h1>
 								<ul class="breadcrumb breadcrumb-valign-mid">
-									<li><a href="#">Home</a></li>
+									<li><a href="home">Home</a></li>
 									<li class="active">Vacci Locator</li>
 								</ul>
 							</div>
@@ -46,7 +46,7 @@
 
 										<div class="form-group">
 											<div class="col-md-12">
-												<input type="button" onclick="initMap()" value="Automatically Detect Location" class="btn btn-block btn-primary">
+												<input type="button" onclick="getloc()" value="Automatically Detect Location" class="btn btn-block btn-primary">
 											</div>
 										</div>
 										<h5 style="text-align:center;">OR</h5>
@@ -77,13 +77,14 @@
 			</div>
 
 			<script type="text/javascript" charset="utf-8">
-				 $(document).ready(function() {
+				 function getloc() {
 						 var currgeocoder;
 						 //Set geo location lat and long
 						 navigator.geolocation.getCurrentPosition(function(position, html5Error) {
 								 geo_loc = processGeolocationResult(position);
 								 currLatLong = geo_loc.split(",");
 								 console.log(currLatLong[0] + "-- ######## --" + currLatLong[1]);
+								 initMap();
 						});
 
 						//Get geo location result
@@ -96,7 +97,7 @@
 								 $("#long").html(html5Lon);
 								 return (html5Lat).toFixed(8) + ", " + (html5Lon).toFixed(8);
 					 }
-				});
+				}
 			</script>
 
 			<script>
@@ -138,7 +139,7 @@
 					service.nearbySearch({
 						location: pyrmont,
 						radius: 1500,
-						type: ['doctor']
+						type: ['hospital']
 					}, callback);
 				}
 
