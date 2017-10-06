@@ -163,7 +163,7 @@
 											<ul class="fc-slides">
 												<li><a href="scheduler"><img class="img-responsive" src="images/s1.jpg" alt="" /></a></li>
 												<li><a href="vaccilocator"><img class="img-responsive" src="images/s2.jpg" alt="" /></a></li>
-												<li><a href="scheduler"><img class="img-responsive" src="images/s3.jpg" alt="" /></a></li>
+												<li><a href="vacciathome"><img class="img-responsive" src="images/s3.jpg" alt="" /></a></li>
 											</ul>
 										</div>
 									</div>
@@ -273,7 +273,7 @@
 							<div class="col-md-4">
 								<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 									<div class="feature-box-icon">
-										<img src="images/polio.png" alt class="img-responsive" />
+										<img src="images/polio.jpg" alt class="img-responsive" />
 									</div>
 									<div class="feature-box-info ml-md">
 										<h4 class="font-weight-semibold"><a href="vaccine-bcg.jsp" class="text-decoration-none">BCG Vaccine</a></h4>
@@ -284,7 +284,7 @@
 							<div class="col-md-4">
 								<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 									<div class="feature-box-icon">
-										<img src="images/polio.png" alt class="img-responsive" />
+										<img src="images/polio.jpg" alt class="img-responsive" />
 									</div>
 									<div class="feature-box-info ml-md">
 										<h4 class="font-weight-semibold"><a href="vaccine-hepb.jsp" class="text-decoration-none">Hepatitis-B Vaccine</a></h4>
@@ -295,7 +295,7 @@
 							<div class="col-md-4">
 								<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 									<div class="feature-box-icon">
-										<img src="images/syringe.png" alt class="img-responsive" />
+										<img src="images/syringe.jpg" alt class="img-responsive" />
 									</div>
 									<div class="feature-box-info ml-md">
 										<h4 class="font-weight-semibold"><a href="vaccine-polio.jsp" class="text-decoration-none">Polio Vaccine</a></h4>
@@ -308,7 +308,7 @@
 							<div class="col-md-4">
 								<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 									<div class="feature-box-icon">
-										<img src="images/polio.png" alt class="img-responsive" />
+										<img src="images/polio.jpg" alt class="img-responsive" />
 									</div>
 									<div class="feature-box-info ml-md">
 										<h4 class="font-weight-semibold"><a href="vaccine-dtp.jsp" class="text-decoration-none">DTP-containing vaccine</a></h4>
@@ -319,7 +319,7 @@
 							<div class="col-md-4">
 								<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 									<div class="feature-box-icon">
-										<img src="images/polio.png" alt class="img-responsive" />
+										<img src="images/polio.jpg" alt class="img-responsive" />
 									</div>
 									<div class="feature-box-info ml-md">
 										<h4 class="font-weight-semibold"><a href="vaccine-hib.jsp" class="text-decoration-none">Haemophilus Influenzae B</a></h4>
@@ -330,7 +330,7 @@
 							<div class="col-md-4">
 								<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 									<div class="feature-box-icon">
-										<img src="images/syringe.png" alt class="img-responsive" />
+										<img src="images/syringe.jpg" alt class="img-responsive" />
 									</div>
 									<div class="feature-box-info ml-md">
 										<h4 class="font-weight-semibold"><a href="vaccine-pneum.jsp" class="text-decoration-none">Pneumococcal (Conjugate)</a></h4>
@@ -343,7 +343,7 @@
 							<div class="col-md-4">
 								<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 									<div class="feature-box-icon">
-										<img src="images/syringe.png" alt class="img-responsive" />
+										<img src="images/syringe.jpg" alt class="img-responsive" />
 									</div>
 									<div class="feature-box-info ml-md">
 										<h4 class="font-weight-semibold"><a href="vaccine-rota.jsp" class="text-decoration-none">Rotavirus</a></h4>
@@ -354,7 +354,7 @@
 							<div class="col-md-4">
 								<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 									<div class="feature-box-icon">
-										<img src="images/polio.png" alt class="img-responsive" />
+										<img src="images/polio.jpg" alt class="img-responsive" />
 									</div>
 									<div class="feature-box-info ml-md">
 										<h4 class="font-weight-semibold"><a href="vaccine-mmr.jsp" class="text-decoration-none">MMR</a></h4>
@@ -365,7 +365,7 @@
 							<div class="col-md-4">
 								<div class="feature-box feature-box-style-2 mb-xl appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
 									<div class="feature-box-icon">
-										<img src="images/polio.png" alt class="img-responsive" />
+										<img src="images/polio.jpg" alt class="img-responsive" />
 									</div>
 									<div class="feature-box-info ml-md">
 										<h4 class="font-weight-semibold"><a href="vaccine-hpv.jsp" class="text-decoration-none">Human papilloma virus</a></h4>

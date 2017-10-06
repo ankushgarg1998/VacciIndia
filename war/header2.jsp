@@ -1,6 +1,6 @@
-<meta name="keywords" content="Vaccination India" />
-<meta name="description" content="One stop solution for Vaccination Requirements">
-<meta name="author" content="Team VacciIndia">
+<meta name="keywords" content="HTML5 Template" />
+<meta name="description" content="Porto - Responsive HTML5 Template">
+<meta name="author" content="okler.net">
 
 <!-- Favicon -->
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />

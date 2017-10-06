@@ -31,7 +31,7 @@
 
 						<div class="feature-box feature-box-style-2 mb-lg">
 							<div class="feature-box-icon">
-								<img src="images/polio.png" alt class="img-responsive" />
+								<img src="images/polio.jpg" alt class="img-responsive" />
 							</div>
 							<div class="feature-box-info ml-md">
 								<h2 class="font-weight-semibold mb-md">Polio Vaccine</h2>
