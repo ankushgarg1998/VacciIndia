@@ -3,6 +3,11 @@
 <cronentries>
 	<cron>
 		<url>/sendReminder</url>
-		<schedule>every day 7:00</schedule>
+		<schedule>everyday 7:00</schedule>
 	</cron>
+
+    <cron>
+        <url>/delelements</url>
+        <schedule>every 1 minutes</schedule>
+    </cron>
 </cronentries>
