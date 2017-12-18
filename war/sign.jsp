@@ -41,7 +41,7 @@
 													<div class="row">
 														<div class="form-group">
 															<div class="col-md-12">
-																<a class="pull-right" href="#">(Lost Password?)</a>
+																<a class="pull-right" href="/resetpswd">(Lost Password?)</a>
 																<label>Password</label>
 																<input type="password" name="upass" value="" class="form-control input-lg" required>
 															</div>
