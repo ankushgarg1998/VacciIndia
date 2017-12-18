@@ -4,7 +4,7 @@ xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
-	<servlet>
+<servlet>
 		<servlet-name>Trial</servlet-name>
 		<servlet-class>pkg.TrialServlet</servlet-class>
 	</servlet>
@@ -13,7 +13,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/trial</url-pattern>
 	</servlet-mapping>
 
-	<servlet>
+<servlet>
 		<servlet-name>SendReminder</servlet-name>
 		<servlet-class>controller.ReminderController</servlet-class>
 	</servlet>
@@ -22,7 +22,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/sendReminder</url-pattern>
 	</servlet-mapping>
 
-	<servlet>
+<servlet>
 		<servlet-name>scheduler_servlet</servlet-name>
 		<servlet-class>pkg.SchedulerServlet</servlet-class>
 	</servlet>
@@ -284,42 +284,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>err</servlet-name>
 		<url-pattern>/err</url-pattern>
 	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>delelements</servlet-name>
-		<servlet-class>controller.DelElementsController</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>delelements</servlet-name>
-		<url-pattern>/delelements</url-pattern>
-	</servlet-mapping>
 
-    <servlet>
-		<servlet-name>resetpswd</servlet-name>
-		<jsp-file>/forgot-pswd.jsp</jsp-file>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>resetpswd</servlet-name>
-		<url-pattern>/resetpswd</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>resetpswdcont</servlet-name>
-		<servlet-class>controller.ResetController</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>resetpswdcont</servlet-name>
-		<url-pattern>/resetpswdcont</url-pattern>
-	</servlet-mapping>
-
-    <servlet>
-		<servlet-name>resetuid</servlet-name>
-		<jsp-file>/reset-uuid.jsp</jsp-file>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>resetuid</servlet-name>
-		<url-pattern>/resetuid</url-pattern>
-	</servlet-mapping>
 
  
  <servlet>
